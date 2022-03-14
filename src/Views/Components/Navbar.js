@@ -6,24 +6,27 @@ function Navbar({ children }) {
     return (
         <div>
             <nav className="navbar navbar-expand-lg navbar-dark bg-dark ">
-                <div className="justify-content-around container-fluid">
+
+                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span className="navbar-toggler-icon"></span>
+                </button>
+
+                <NavLink className="nav-item p-1 me-3 d-lg-none" to="/">
+                    <img className='photo' src='../img/apple-logo.png' width={20} height={20} alt='Apple' />
+                </NavLink>
+
+                <NavLink className="nav-item me-3 d-lg-none" to="/about">
+                    <Bag color='White' />
+                </NavLink>
 
 
-                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span className="navbar-toggler-icon"></span>
-                    </button>
-
+                <div className="justify-content-lg-center container-fluid">
                     <div className="navbar-nav">
-                        <NavLink className="nav-item p-1 me-3" to="/">
-                            <img className='photo' src='../img/apple-logo.png' width={20} height={20} alt='Apple' />
-                        </NavLink>
-                        <li className="nav-item me-3 d-lg-none">
-                            <NavLink className="nav-link" to="/about">
-                                <Bag />
-                            </NavLink>
-                        </li>
                         <div className="navbar-collapse collapse" id="navbarSupportedContent">
                             <ul className="navbar-nav">
+                                <NavLink className="nav-item p-1 me-3 d-block d-lg-block d-none" to="/">
+                                    <img className='photo' src='../img/apple-logo.png' width={20} height={20} alt='Apple' />
+                                </NavLink>
                                 <li className="nav-item me-3">
                                     <NavLink exact className="nav-link" to="/Store">Store</NavLink>
                                 </li>
@@ -54,12 +57,12 @@ function Navbar({ children }) {
                                 <li className="nav-item me-3">
                                     <NavLink className="nav-link" to="/Support">Support</NavLink>
                                 </li>
-                                <li className="nav-item me-3">
+                                <li className="nav-item me-3 d-block d-lg-block d-none">
                                     <NavLink className="nav-link" to="/Search">
                                         <Search />
                                     </NavLink>
                                 </li>
-                                <li className="nav-item me-3 d-block">
+                                <li className="nav-item me-3 d-block d-lg-block d-none">
                                     <NavLink className="nav-link" to="/Bag">
                                         <Bag />
                                     </NavLink>
@@ -69,13 +72,13 @@ function Navbar({ children }) {
                         </div>
                     </div>
                 </div>
-            </nav>
+            </nav >
 
             <div className="py-4">
                 {children}
             </div>
 
-        </div>
+        </div >
     );
 }
 
