@@ -1,16 +1,14 @@
 import React from 'react';
+import Shop from '../Views/Shop';
 import { Route, Switch} from 'react-router-dom';
 import Navbar from '../Views/Components/Navbar';
-import Home from '../Views/Home';
  
 function Router(props) {
     return (
         <Switch>
         <Route path='/'>
                 <Navbar>
-                    <div className="py-4">
-                    <Home />
-                    </div>
+                    <Shop />
                 </Navbar>
         </Route>
         </Switch>
