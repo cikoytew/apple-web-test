@@ -1,5 +1,5 @@
 import React from 'react';
-import Shop from '../Views/Shop';
+import Store from '../Views/Store';
 import { Route, Switch} from 'react-router-dom';
 import Navbar from '../Views/Components/Navbar';
  
@@ -8,7 +8,7 @@ function Router(props) {
         <Switch>
         <Route path='/'>
                 <Navbar>
-                    <Shop />
+                    <Store />
                 </Navbar>
         </Route>
         </Switch>
