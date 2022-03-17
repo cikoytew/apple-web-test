@@ -26,7 +26,9 @@ function Store() {
                             </div>
                             <div className='fs-8 text-primary'>
                                 <NavLink to='/'>
-                                    Ask a Specialist
+                                    <small>
+                                        Ask a Specialist
+                                    </small>
                                 </NavLink>
                             </div>
                         </div>
@@ -39,7 +41,9 @@ function Store() {
                                 </div>
                                 <div className='fs-8 text-primary'>
                                     <NavLink to='/'>
-                                        <p> Find one near you</p>
+                                        <small>
+                                            Find one near you
+                                        </small>
                                     </NavLink>
                                 </div>
                             </div>
