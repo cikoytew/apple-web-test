@@ -1,6 +1,6 @@
 import Carousel from 'react-bootstrap/Carousel'
 import React from 'react';
-import { Apple, App } from 'react-bootstrap-icons';
+import { Apple, App, Bag, Box } from 'react-bootstrap-icons';
 import { NavLink } from 'react-router-dom';
 import { Card } from 'react-bootstrap';
 
@@ -253,11 +253,84 @@ function Store() {
                             </div>
                         </div>
                     </Carousel.Item>
+                </Carousel>
+            </section>
+
+            <div className='fs-3 fw-bold offset-1' style={{ fontFamily: "../fonts/SF-Pro-Display-Semibold.otf" }}>
+                Help is here. <p className='text-secondary d-inline'> Whenever and however you need it.</p>
+            </div>
+
+            <section>
+                <div className="container offset-lg-1 d-lg-block d-none d-md-none position-relative" >
+                    <div className="row">
+                        <Card className="text-dark border border-5" style={{ width: 550 }}>
+                            <Card.Img className='rounded' src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-50-specialist-202108?wid=480&hei=500&fmt=p-jpg&qlt=95&.v=1626296836000" alt="Card image" />
+                            <Card.ImgOverlay>
+                                <Card.Title className='fw-bold fs-3 mt-5'>Shop one on one with a <br /> Specialist. Online or in store.
+                                </Card.Title>
+                            </Card.ImgOverlay>
+                        </Card>
+                        <Card className="text-dark border border-5 position-absolute top-0 start-50" style={{ width: 540, height: 260 }}>
+                            <Card.Img className='rounded' src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-25-apps-202108?wid=550&hei=280&fmt=p-jpg&qlt=95&.v=1626223748000" alt="Card image" />
+                            <Card.ImgOverlay>
+                                <Card.Title className='fw-bold fs-3 mt-4'>
+                                    Get to know your new device <br /> with a free Personal Session.</Card.Title>
+                            </Card.ImgOverlay>
+                        </Card>
+                        <Card className="text-dark border border-5 position-absolute bottom-0 start-50" style={{ width: 540, height: 260 }}>
+                            <Card.Img className='rounded' src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-25-genius-202108?wid=550&hei=280&fmt=p-jpg&qlt=95&.v=1626384443000" alt="Card image" />
+                            <Card.ImgOverlay>
+                                <Card.Title className='fs-4 fw-bold mt-5'>Get expert service <br />
+                                    and support at the <br />
+                                    Genius Bar.</Card.Title>
+                            </Card.ImgOverlay>
+                        </Card>
+                    </div>
+
+                </div>
+            </section>
 
 
+            <div className='fs-3 fw-bold offset-1 mt-4' style={{ fontFamily: "../fonts/SF-Pro-Display-Semibold.otf" }}>
+                The Apple difference. <p className='text-secondary d-inline'> Even more reasons to shop with us.</p>
+            </div>
+
+            <section>
+                <Carousel>
+                    <Carousel.Item>
+                        <div className="card py-3 offset-1 d-lg-block d-none d-md-none " >
+                            <div className="row">
+                                <div className="col-3">
+                                    <div className="container position-relative">
+                                        <Apple className='top-50 mx-3 position-absolute' color='blue' size={20} />
+                                        <Bag color='blue' size={50} />
+                                    </div>
+                                    <Card className="text-dark bg-white" style={{ width: 300, height: 300 }}>
+                                        <Card.ImgOverlay>
+                                            <Card.Title className='text-primary mt-5 fw-bold '>
+                                                Convenient pickup options <br />that fit into your everyday schedule.
+                                            </Card.Title>
+                                        </Card.ImgOverlay>
+                                    </Card>
+                                </div>
+                                <div className="col-3">
+                                    <div className="container position-relative">
+                                        <Box color='red' size={50} />
+                                    </div>
+                                    <Card className="text-dark bg-white" style={{ width: 300, height: 300 }}>
+                                        <Card.ImgOverlay>
+                                            <Card.Title className='fw-bold mt-5'>
+                                                Choose fast, free delivery or <p className='text-danger d-inline'> two-hour courier delivery.</p>
+                                            </Card.Title>
+                                        </Card.ImgOverlay>
+                                    </Card>
+                                </div>
+                            </div>
+                        </div>
+                    </Carousel.Item>
                 </Carousel>
 
-            </section>
+            </section >
 
         </div >
 

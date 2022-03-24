@@ -5,7 +5,7 @@ import { Bag, Search } from 'react-bootstrap-icons';
 function Navbar({ children }) {
     return (
         <div>
-            <nav className="navbar navbar-expand-lg navbar-dark bg-dark container-fluid justify-content-lg-center" style={{ fontFamily: "../fonts/SF-Pro-Display-Semibold.otf" }}>
+            <nav className="navbar navbar-expand-lg navbar-dark bg-dark container-fluid justify-content-lg-center " style={{ fontFamily: "../fonts/SF-Pro-Display-Semibold.otf" }}>
 
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
