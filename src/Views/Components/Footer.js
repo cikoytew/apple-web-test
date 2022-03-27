@@ -333,7 +333,7 @@ function Footer(props) {
                         <div className='d-flex justify-content-lg-start offset-lg-1'>
                             <p className="fs-8">More ways to shop: Find an Apple Store or other retailer near you. Or call 1‑800‑MY‑APPLE.</p>
                         </div>
-                        <hr style={{ height: 3 }} />
+                        <hr className='offset-lg-1' style={{ height: 1 }} />
                     </div>
                     <small>
                         <div className="fs-8 offset-lg-1 d-inline-flex">

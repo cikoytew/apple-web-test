@@ -67,40 +67,52 @@ function Store() {
                         <div className="card offset-1 d-lg-block d-none d-sm-none">
                             <div className="row">
                                 <div className="col-lg-2">
-                                    <img className="card-img-top" style={{ width: 160 }} src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-13-mac-nav-202203?wid=250&hei=150&fmt=png-alpha&.v=1645051958490" alt="" />
-                                    <div className="card-body text-center">
-                                        <h6 className="card-title">Mac</h6>
-                                    </div>
+                                    <NavLink className='text-black text-decoration-none' to='/shop/buy-mac'>
+                                        <img className="card-img-top" style={{ width: 160 }} src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-13-mac-nav-202203?wid=250&hei=150&fmt=png-alpha&.v=1645051958490" alt="" />
+                                        <div className="card-body text-center">
+                                            <h6 className="card-title">Mac</h6>
+                                        </div>
+                                    </NavLink>
                                 </div>
                                 <div className="col-lg-2">
-                                    <img className="card-img-top" style={{ width: 160 }} src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-13-iphone-nav-202109_GEO_US?wid=250&hei=150&fmt=png-alpha&.v=1630706116000" alt="" />
-                                    <div className="card-body text-center">
-                                        <h6 className="card-title">iPhone</h6>
-                                    </div>
+                                    <NavLink className='text-black text-decoration-none' to='/shop/buy-iphone'>
+                                        <img className="card-img-top" style={{ width: 160 }} src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-13-iphone-nav-202109_GEO_US?wid=250&hei=150&fmt=png-alpha&.v=1630706116000" alt="" />
+                                        <div className="card-body text-center">
+                                            <h6 className="card-title">iPhone</h6>
+                                        </div>
+                                    </NavLink>
                                 </div>
                                 <div className="col-lg-2">
-                                    <img className="card-img-top" style={{ width: 160 }} src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-13-ipad-nav-202108?wid=250&hei=150&fmt=png-alpha&.v=1625783381000" alt="" />
-                                    <div className="card-body text-center">
-                                        <h6 className="card-title">iPad</h6>
-                                    </div>
+                                    <NavLink className='text-black text-decoration-none' to='/shop/buy-ipad'>
+                                        <img className="card-img-top" style={{ width: 160 }} src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-13-ipad-nav-202108?wid=250&hei=150&fmt=png-alpha&.v=1625783381000" alt="" />
+                                        <div className="card-body text-center">
+                                            <h6 className="card-title">iPad</h6>
+                                        </div>
+                                    </NavLink>
                                 </div>
                                 <div className="col-lg-2">
-                                    <img className="card-img-top" style={{ width: 160 }} src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-13-watch-nav-202203?wid=250&hei=150&fmt=png-alpha&.v=1645052537409" alt="" />
-                                    <div className="card-body text-center">
-                                        <h6 className="card-title">Apple Watch</h6>
-                                    </div>
+                                    <NavLink className='text-black text-decoration-none' to='/shop/buy-watch'>
+                                        <img className="card-img-top" style={{ width: 160 }} src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-13-watch-nav-202203?wid=250&hei=150&fmt=png-alpha&.v=1645052537409" alt="" />
+                                        <div className="card-body text-center">
+                                            <h6 className="card-title">Apple Watch</h6>
+                                        </div>
+                                    </NavLink>
                                 </div>
                                 <div className="col-lg-2">
-                                    <img className="card-img-top" style={{ width: 160 }} src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-13-airpods-nav-202110?wid=250&hei=150&fmt=png-alpha&.v=1633718741000" alt="" />
-                                    <div className="card-body text-center">
-                                        <h6 className="card-title">AirPods</h6>
-                                    </div>
+                                    <NavLink className='text-black text-decoration-none' to='/airpods'>
+                                        <img className="card-img-top" style={{ width: 160 }} src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-13-airpods-nav-202110?wid=250&hei=150&fmt=png-alpha&.v=1633718741000" alt="" />
+                                        <div className="card-body text-center">
+                                            <h6 className="card-title">AirPods</h6>
+                                        </div>
+                                    </NavLink>
                                 </div>
                                 <div className="col-lg-2">
-                                    <img className="card-img-top" style={{ width: 160 }} src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-13-airtags-nav-202108?wid=250&hei=150&fmt=png-alpha&.v=1625783380000" alt="" />
-                                    <div className="card-body text-center">
-                                        <h6 className="card-title">AirTag</h6>
-                                    </div>
+                                    <NavLink className='text-black text-decoration-none' to='/airtag'>
+                                        <img className="card-img-top" style={{ width: 160 }} src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-13-airtags-nav-202108?wid=250&hei=150&fmt=png-alpha&.v=1625783380000" alt="" />
+                                        <div className="card-body text-center">
+                                            <h6 className="card-title">AirTag</h6>
+                                        </div>
+                                    </NavLink>
                                 </div>
                             </div>
                         </div>
@@ -824,6 +836,7 @@ function Store() {
             </p>
             <p className='offset-1 lh-1 text-secondary d-lg-block d-none d-md-none'>
                 †† We approximate your location from your internet IP address by matching it to a geographic region or from the location entered during your previous visit to Apple.
+                <hr style={{ height: 1 }} />
             </p>
         </div >
 
