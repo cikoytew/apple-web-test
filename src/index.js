@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+import './css/stylesheet.css'
 import 'bootstrap'
 import 'bootstrap/dist/css/bootstrap.css'
 
@@ -11,9 +12,9 @@ import { BrowserRouter } from 'react-router-dom';
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
-        <App />
+      <App />
     </BrowserRouter>
-    </React.StrictMode>,
+  </React.StrictMode>,
   document.getElementById('root')
 );
 

@@ -1,13 +1,14 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import { Apple } from 'react-bootstrap-icons';
 
 function Footer(props) {
     return (
-        <footer className="bg-light text-dark">
+        <footer className="bg-white text-dark">
             <div className="container">
                 <div className="justify-content-start d-flex offset-lg-1">
                     <NavLink className="d-block d-lg-block d-none" to="/">
-                        <img className='photo' src='../img/apple-logo.png' width={25} height={25} alt='Apple' />
+                        <Apple color='black' size={18} />
                     </NavLink>
                     <div className="col-lg-2 pt-1 ms-3">
                         <div className='d-block d-lg-block d-none'>
