@@ -64,7 +64,7 @@ function Store() {
 
                 <Carousel>
                     <Carousel.Item>
-                        <div className="card offset-1 d-lg-block d-none d-sm-none">
+                        <div className="card offset-1 d-lg-block d-none d-sm-none border border-white">
                             <div className="row">
                                 <div className="col-lg-2">
                                     <NavLink className='text-black text-decoration-none' to='/shop/buy-mac'>
@@ -118,7 +118,7 @@ function Store() {
                         </div>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <div className="card offset-1 d-lg-block d-none d-md-none">
+                        <div className="card offset-1 d-lg-block d-none d-md-none border border-white">
                             <div className="row">
                                 <div className="col-lg-2">
                                     <img className="card-img-top" style={{ width: 160 }} src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-13-appletv-nav-202108?wid=250&hei=150&fmt=png-alpha&.v=1625783378000" alt="" />
@@ -159,7 +159,7 @@ function Store() {
             <section>
                 <Carousel>
                     <Carousel.Item>
-                        <div className="card offset-1 d-lg-block d-none d-md-none" >
+                        <div className="card offset-1 d-lg-block d-none d-md-none border border-white" >
                             <div className="row">
                                 <div className="col-4">
                                     <Card className="text-dark bg-black" style={{ width: 320 }}>
@@ -202,7 +202,7 @@ function Store() {
                         </div>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <div className="card offset-1 d-lg-block d-none d-md-none">
+                        <div className="card offset-1 d-lg-block d-none d-md-none border border-white">
                             <div className="row">
                                 <div className="col-4">
                                     <Card className="text-dark bg-black" style={{ width: 320 }}>
@@ -249,7 +249,7 @@ function Store() {
                         </div>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <div className="card offset-1 d-lg-block d-none d-md-none" >
+                        <div className="card offset-1 d-lg-block d-none d-md-none border border-white" >
                             <div className="row">
                                 <div className="col-4">
                                     <Card className="text-dark bg-black" style={{ width: 320 }}>
@@ -311,7 +311,7 @@ function Store() {
             <section>
                 <Carousel>
                     <Carousel.Item>
-                        <div className="card offset-1 d-lg-block d-none d-md-none" >
+                        <div className="card offset-1 d-lg-block d-none d-md-none border border-white" >
                             <div className="row">
                                 <div className="col-4">
                                     <Card className="text-dark bg-white border border-4" style={{ width: 300, height: 200 }}>
@@ -354,7 +354,7 @@ function Store() {
                         </div>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <div className="card offset-1 d-lg-block d-none d-md-none" >
+                        <div className="card offset-1 d-lg-block d-none d-md-none border border-white" >
                             <div className="row">
                                 <div className="col-4">
                                     <Card className="text-dark bg-white border border-4" style={{ width: 300, height: 200 }}>
@@ -407,7 +407,7 @@ function Store() {
 
                 <Carousel>
                     <Carousel.Item>
-                        <div className="card offset-1 d-lg-block d-none d-md-none" >
+                        <div className="card offset-1 d-lg-block d-none d-md-none border border-white" >
                             <div className="row">
                                 <div className="col-4">
                                     <Card className="text-dark bg-white" style={{ width: 320 }}>
@@ -454,7 +454,7 @@ function Store() {
                         </div>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <div className="card offset-1 d-lg-block d-none d-md-none">
+                        <div className="card offset-1 d-lg-block d-none d-md-none border border-white">
                             <div className="row">
                                 <div className="col-4">
                                     <Card className="text-dark bg-white" style={{ width: 320 }}>
@@ -503,7 +503,7 @@ function Store() {
                         </div>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <div className="card offset-1 d-lg-block d-none d-md-none" >
+                        <div className="card offset-1 d-lg-block d-none d-md-none border border-white" >
                             <div className="row">
                                 <div className="col-4">
                                     <Card className="text-dark bg-white" style={{ width: 320 }}>
@@ -542,7 +542,7 @@ function Store() {
             <section>
                 <Carousel>
                     <Carousel.Item>
-                        <div className="card offset-1 d-lg-block d-none d-md-none" >
+                        <div className="card offset-1 d-lg-block d-none d-md-none border border-white" >
                             <div className="row">
                                 <div className="col-4">
                                     <Card className="text-dark bg-white" style={{ width: 320 }}>
@@ -589,7 +589,7 @@ function Store() {
                         </div>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <div className="card offset-1 d-lg-block d-none d-md-none">
+                        <div className="card offset-1 d-lg-block d-none d-md-none border border-white">
                             <div className="row">
                                 <div className="col-4">
                                     <Card className="text-dark bg-white" style={{ width: 320 }}>
@@ -646,7 +646,7 @@ function Store() {
             <section>
                 <Carousel>
                     <Carousel.Item>
-                        <div className="card offset-1 d-lg-block d-none d-md-none" >
+                        <div className="card offset-1 d-lg-block d-none d-md-none border border-white" >
                             <div className="row">
                                 <div className="col-6">
                                     <Card className="text-dark bg-black" style={{ width: 480 }}>
@@ -674,7 +674,7 @@ function Store() {
                         </div>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <div className="card offset-1 d-lg-block d-none d-md-none">
+                        <div className="card offset-1 d-lg-block d-none d-md-none border border-white">
                             <div className="row">
                                 <div className="col-6">
                                     <Card className="text-dark bg-black" style={{ width: 480 }}>
@@ -713,7 +713,7 @@ function Store() {
             <section>
                 <Carousel>
                     <Carousel.Item>
-                        <div className="card offset-1 d-lg-block d-none d-md-none" >
+                        <div className="card offset-1 d-lg-block d-none d-md-none border border-white" >
                             <div className="row">
                                 <div className="col-6">
                                     <Card className="text-dark bg-black" style={{ width: 480 }}>
@@ -745,7 +745,7 @@ function Store() {
                         </div>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <div className="card offset-1 d-lg-block d-none d-md-none">
+                        <div className="card offset-1 d-lg-block d-none d-md-none border border-white">
                             <div className="row">
                                 <div className="col-6">
                                     <Card className="text-light bg-black" style={{ width: 480 }}>
@@ -776,7 +776,7 @@ function Store() {
                         </div>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <div className="card offset-1 d-lg-block d-none d-md-none">
+                        <div className="card offset-1 d-lg-block d-none d-md-none border border-white">
                             <div className="row">
                                 <div className="col-6">
                                     <Card className="text-dark bg-black" style={{ width: 480 }}>

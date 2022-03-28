@@ -28,7 +28,7 @@ function Navbar({ children }) {
                                     <img className='photo' src='../img/apple-logo.png' width={20} height={20} alt='Apple' />
                                 </NavLink>
                                 <li className="nav-item me-3">
-                                    <NavLink exact className="nav-link" to="/Store">Store</NavLink>
+                                    <NavLink exact className="nav-link" to="store">Store</NavLink>
                                 </li>
                                 <li className="nav-item me-3">
                                     <NavLink className="nav-link" to="/Mac">Mac</NavLink>
@@ -74,7 +74,7 @@ function Navbar({ children }) {
                 </div>
             </nav >
 
-            <div className="py-4">
+            <div className="py-0">
                 {children}
             </div>
 
