@@ -1,11 +1,8 @@
 import React, { useState } from 'react';
 import { Card } from 'react-bootstrap';
-import { Apple, Bag, Bookmark, Box, ChatDots } from 'react-bootstrap-icons';
-import { NavLink } from 'react-router-dom';
-function Checkoutiphone(props) {
+import { Box, ChatDots } from 'react-bootstrap-icons';
 
-    const [gambar1, setGambar1] = useState('https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/macbook-air-space-gray-select-201810?wid=452&hei=420&fmt=jpeg&qlt=95&.v=1633027804000');
-    const [gambar2, setGambar2] = useState('https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/macbook-air-space-gray-select-201810?wid=452&hei=420&fmt=jpeg&qlt=95&.v=1633027804000');
+function Checkoutiphone(props) {
 
     return (
         <div className='container'>

@@ -4,14 +4,14 @@ import { Apple, App, Play } from 'react-bootstrap-icons';
 import { NavLink, Link } from 'react-router-dom';
 import { Card } from 'react-bootstrap';
 
-function Mac(props) {
+function Ipad(props) {
     return (
         <div className='container'>
             <div className="d-flex offset-lg-1 mb-5 position-relative">
                 <div className="row ">
                     <div className="col-lg-6 py-4 d-block d-lg-block">
                         <div className='fs-1 fw-bold text-nowrap' style={{ fontFamily: "../fonts/SF-Pro-Display-Semibold.otf" }}>
-                            Shop Mac
+                            Shop iPad
                         </div>
                     </div>
                     <div className="col-sm-1 position-absolute start-50 py-5 d-none d-lg-block d-sm-none">
@@ -86,16 +86,22 @@ function Mac(props) {
                             <div className="row">
                                 <div className="col-4">
                                     <Card className="text-dark bg-white" style={{ width: 320 }}>
+
                                         <Card.Title className='mx-4 mt-4'>
-                                            MacBook Air
+                                            <Card.Text style={{ color: 'red' }}>
+                                                <small>
+                                                    New
+                                                </small>
+                                            </Card.Text>
+                                            ipad Pro
                                         </Card.Title>
-                                        <Card.Img className='rounded mb-0 mx-auto' style={{ width: 250, height: 249 }} src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mac-card-40-macbook-air-202110?wid=600&hei=500&fmt=p-jpg&qlt=95&.v=1633726242000" alt="Card image" />
+                                        <Card.Img className='rounded mb-0 mx-auto' style={{ width: 250, height: 249 }} src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-card-40-pro-202108?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1627413382000" alt="Card image" />
                                         <Card.ImgOverlay className='bg-white position-relative'>
                                             <Card.Text>
                                                 <small>
-                                                    From $999 or $83.25/mo. for 12 mo.
+                                                    From $799 or $66.58/mo. for 12 mo.
                                                 </small>
-                                                <Link to='macbook-air'>
+                                                <Link to='ipad-pro'>
                                                     <button className='btn btn-primary rounded-pill text-light position-absolute mb-3 mx-3 bottom-0 end-0'>
                                                         Buy
                                                     </button>
@@ -107,13 +113,18 @@ function Mac(props) {
                                 <div className="col-4">
                                     <Card className="text-dark bg-white" style={{ width: 320 }}>
                                         <Card.Title className='mx-4 mt-4'>
-                                            MacBook Pro 13"
+                                            <Card.Text style={{ color: 'red' }}>
+                                                <small>
+                                                    New
+                                                </small>
+                                            </Card.Text>
+                                            iPad Air
                                         </Card.Title>
-                                        <Card.Img className='rounded mb-0 mx-auto' style={{ width: 250, height: 249 }} src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mac-card-40-macbook-pro-13-202110?wid=600&hei=500&fmt=p-jpg&qlt=95&.v=1633726243000" alt="Card image" />
+                                        <Card.Img className='rounded mb-0 mx-auto' style={{ width: 250, height: 249 }} src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-card-40-air-202203?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1644963446761" alt="Card image" />
                                         <Card.ImgOverlay className='bg-white position-relative'>
                                             <Card.Text>
                                                 <small>
-                                                    From $1299 or $108.25/mo.
+                                                    From $699or $29.12/mo. for 24 mo.
                                                 </small>
                                                 <button className='btn btn-primary rounded-pill text-light position-absolute mb-3 mx-3 bottom-0 end-0'>
                                                     Buy
@@ -125,13 +136,18 @@ function Mac(props) {
                                 <div className="col-4">
                                     <Card className="text-dark bg-white" style={{ width: 320 }}>
                                         <Card.Title className='mx-4 mt-4'>
-                                            MacBook Pro 14"
+                                            <Card.Text style={{ color: 'white' }}>
+                                                <small>
+                                                    New
+                                                </small>
+                                            </Card.Text>
+                                            iPad
                                         </Card.Title>
-                                        <Card.Img className='rounded mb-0 mx-auto' style={{ width: 250, height: 249 }} src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mac-card-40-macbook-pro-14-202110?wid=600&hei=500&fmt=p-jpg&qlt=95&.v=1633726243000" alt="Card image" />
+                                        <Card.Img className='rounded mb-0 mx-auto' style={{ width: 250, height: 249 }} src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-card-40-ipad-202109?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1630640992000" alt="Card image" />
                                         <Card.ImgOverlay className='bg-white position-relative'>
                                             <Card.Text>
                                                 <small>
-                                                    From $1999 or $166.58/mo.
+                                                    From $429or $17.87/mo. for 24 mo.
                                                 </small>
                                                 <button className='btn btn-primary rounded-pill text-light position-absolute mb-3 mx-3 bottom-0 end-0'>
                                                     Buy
@@ -149,13 +165,18 @@ function Mac(props) {
                                 <div className="col-4">
                                     <Card className="text-dark bg-white" style={{ width: 320 }}>
                                         <Card.Title className='mx-4 mt-4'>
-                                            MacBook Pro 16"
+                                            <Card.Text style={{ color: 'white' }}>
+                                                <small>
+                                                    New
+                                                </small>
+                                            </Card.Text>
+                                            iPad Mini
                                         </Card.Title>
-                                        <Card.Img className='rounded mb-0 mx-auto' style={{ width: 250, height: 249 }} src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mac-card-40-macbook-pro-16-202110?wid=600&hei=500&fmt=p-jpg&qlt=95&.v=1633726244000" alt="Card image" />
+                                        <Card.Img className='rounded mb-0 mx-auto' style={{ width: 250, height: 249 }} src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-card-40-ipad-mini-202109?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1630457637000" alt="Card image" />
                                         <Card.ImgOverlay className='bg-white position-relative'>
                                             <Card.Text>
                                                 <small>
-                                                    From $1599 or $208.25/mo.
+                                                    From $599or $24.95/mo. for 24 mo.
                                                 </small>
                                                 <button className='btn btn-primary rounded-pill text-light position-absolute mb-3 mx-3 bottom-0 end-0'>
                                                     Buy
@@ -166,125 +187,13 @@ function Mac(props) {
                                 </div>
                                 <div className="col-4">
                                     <Card className="text-dark bg-white" style={{ width: 320 }}>
-                                        <Card.Title className='mx-4 mt-4'>
-                                            iMac 24"
-                                        </Card.Title>
-                                        <Card.Img className='rounded mb-0 mx-auto' style={{ width: 250, height: 249 }} src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mac-card-40-imac-24-202108?wid=490&hei=500&fmt=jpeg&qlt=95&.v=1625868688000" alt="Card image" />
-                                        <Card.ImgOverlay className='bg-white position-relative'>
-                                            <Card.Text>
-                                                <small>
-                                                    From $1299 or $108.25/mo.
-                                                </small>
-                                                <button className='btn btn-primary rounded-pill text-light position-absolute mb-3 mx-3 bottom-0 end-0'>
-                                                    Buy
-                                                </button>
-                                            </Card.Text>
-                                        </Card.ImgOverlay>
-                                    </Card>
-                                </div>
-                                <div className="col-4">
-                                    <Card className="text-dark bg-white" style={{ width: 320 }}>
-                                        <Card.Title className='mx-4 mt-4'>
-                                            Mac mini
-                                        </Card.Title>
-                                        <Card.Img className='rounded mb-0 mx-auto' style={{ width: 250, height: 249 }} src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mac-card-40-mac-mini-202108?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1626106830000" alt="Card image" />
-                                        <Card.ImgOverlay className='bg-white position-relative'>
-                                            <Card.Text>
-                                                <small>
-                                                    From $699 or $58.25/mo.
-                                                </small>
-                                                <button className='btn btn-primary rounded-pill text-light position-absolute mb-3 mx-3 bottom-0 end-0'>
-                                                    Buy
-                                                </button>
-                                            </Card.Text>
+                                        <Card.Img className='rounded mb-0' style={{ width: 318, height: 386 }} src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-card-40-all-accessories-202109?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1631315742000" alt="Card image" />
+                                        <Card.ImgOverlay>
+                                            <Card.Title className='fw-bold fs-3 mt-4'>Explore all iPhone accessories.</Card.Title>
                                         </Card.ImgOverlay>
                                     </Card>
                                 </div>
 
-                            </div>
-                        </div>
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <div className="card offset-1 d-lg-block d-none d-md-none border border-white" >
-                            <div className="row">
-                                <div className="col-4">
-                                    <Card className="text-dark bg-white" style={{ width: 320 }}>
-                                        <Card.Title className='mx-4 mt-4'>
-                                            Mac Studio
-                                        </Card.Title>
-                                        <Card.Img className='rounded mb-0 mx-auto' style={{ width: 250, height: 249 }} src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mac-card-40-mac-studio-202203?wid=400&hei=500&fmt=jpeg&qlt=95&.v=1645558306355" alt="Card image" />
-                                        <Card.ImgOverlay className='bg-white position-relative'>
-                                            <Card.Text>
-                                                <small>
-                                                    From $1299 or $166.58/mo.
-                                                </small>
-                                                <button className='btn btn-primary rounded-pill text-light position-absolute mb-3 mx-3 bottom-0 end-0'>
-                                                    Buy
-                                                </button>
-                                            </Card.Text>
-                                        </Card.ImgOverlay>
-                                    </Card>
-                                </div>
-                                <div className="col-4">
-                                    <Card className="text-dark bg-white" style={{ width: 320 }}>
-                                        <Card.Title className='mx-4 mt-4'>
-                                            Studio Display
-                                        </Card.Title>
-                                        <Card.Img className='rounded mb-0 mx-auto' style={{ width: 250, height: 249 }} src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mac-card-40-studio-display-202203?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1645558306366" alt="Card image" />
-                                        <Card.ImgOverlay className='bg-white position-relative'>
-                                            <Card.Text>
-                                                <small>
-                                                    From $1599 or $133.25/mo.
-                                                </small>
-                                                <button className='btn btn-primary rounded-pill text-light position-absolute mb-3 mx-3 bottom-0 end-0'>
-                                                    Buy
-                                                </button>
-                                            </Card.Text>
-                                        </Card.ImgOverlay>
-                                    </Card>
-                                </div>
-                                <div className="col-4">
-                                    <Card className="text-dark bg-white" style={{ width: 320 }}>
-                                        <Card.Title className='mx-4 mt-4'>
-                                            Mac Pro
-                                        </Card.Title>
-                                        <Card.Img className='rounded mb-0 mx-auto' style={{ width: 250, height: 249 }} src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mac-card-40-mac-pro-202108?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1625864628000" alt="Card image" />
-                                        <Card.ImgOverlay className='bg-white position-relative'>
-                                            <Card.Text>
-                                                <small>
-                                                    From $5999 or $499.91/mo.
-                                                </small>
-                                                <button className='btn btn-primary rounded-pill text-light position-absolute mb-3 mx-3 bottom-0 end-0'>
-                                                    Buy
-                                                </button>
-                                            </Card.Text>
-                                        </Card.ImgOverlay>
-                                    </Card>
-                                </div>
-                            </div>
-                        </div>
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <div className="card offset-1 d-lg-block d-none d-md-none border border-white" >
-                            <div className="row">
-                                <div className="col-4">
-                                    <Card className="text-dark bg-white" style={{ width: 320 }}>
-                                        <Card.Title className='mx-4 mt-4'>
-                                            Pro Display XDR
-                                        </Card.Title>
-                                        <Card.Img className='rounded mb-0 mx-auto' style={{ width: 250, height: 249 }} src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mac-card-40-mac-pro-display-202108?wid=400&hei=500&fmt=jpeg&qlt=95&.v=1625864626000" alt="Card image" />
-                                        <Card.ImgOverlay className='bg-white position-relative'>
-                                            <Card.Text>
-                                                <small>
-                                                    From $4999 or $416.58/mo.
-                                                </small>
-                                                <button className='btn btn-primary rounded-pill text-light position-absolute mb-3 mx-3 bottom-0 end-0'>
-                                                    Buy
-                                                </button>
-                                            </Card.Text>
-                                        </Card.ImgOverlay>
-                                    </Card>
-                                </div>
                             </div>
                         </div>
                     </Carousel.Item>
@@ -302,25 +211,27 @@ function Mac(props) {
                             <div className="row">
                                 <div className="col-6">
                                     <Card className="text-dark bg-black" style={{ width: 480 }}>
-                                        <Card.Img className='rounded mb-0' src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mac-card-50-compare-models-202203?wid=480&hei=500&fmt=p-jpg&qlt=95&.v=1645055994685" alt="Card image" />
+                                        <Card.Img className='rounded mb-0' src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-card-50-compare-202203?wid=480&hei=500&fmt=p-jpg&qlt=95&.v=1644962931934" alt="Card image" />
                                         <Card.ImgOverlay>
-                                            <Card.Text className='fs-6'>COMPARE ALL MODELS
+                                            <Card.Text className='fs-6'><small>
+                                                COMPARE ALL MODELS
+                                            </small>
                                             </Card.Text>
                                             <Card.Title className='fs-4 fw-bold'>
-                                                Which Mac is right for you?
+                                                Which iPad is <br />right for you?
                                             </Card.Title>
                                         </Card.ImgOverlay>
                                     </Card>
                                 </div>
                                 <div className="col-6">
                                     <Card className="text-dark bg-black" style={{ width: 480 }}>
-                                        <Card.Img className='rounded mb-0' src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mac-card-50-specialist-help-202108?wid=480&hei=500&fmt=p-jpg&qlt=95&.v=1625760842000" alt="Card image" />
+                                        <Card.Img className='rounded mb-0' src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-card-specialist-202108?wid=480&hei=500&fmt=p-jpg&qlt=95&.v=1625269621000" alt="Card image" />
                                         <Card.ImgOverlay>
                                             <Card.Text className='fs-6'>
                                                 SHOPPING HELP
                                             </Card.Text>
                                             <Card.Title className='fs-4 fw-bold'>
-                                                Shop one on one with a <br />Mac Specialist.
+                                                Shop one on one with a <br />iPad Specialist.
                                             </Card.Title>
                                         </Card.ImgOverlay>
                                     </Card>
@@ -343,13 +254,15 @@ function Mac(props) {
                             <div className="row">
                                 <div className="col-6">
                                     <Card className="text-dark bg-black" style={{ width: 480 }}>
-                                        <Card.Img className='rounded mb-0' src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mac-card-50-tradein-202108?wid=480&hei=500&fmt=p-jpg&qlt=95&.v=1625760823000" alt="Card image" />
+                                        <Card.Img className='rounded mb-0' src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-card-50-trade-in-202203?wid=480&hei=500&fmt=p-jpg&qlt=95&.v=1644962956233" alt="Card image" />
                                         <Card.ImgOverlay>
-                                            <Card.Text className='fs-6'>APPLE TRADE IN
+                                            <Card.Text className='fs-6'>
+                                                APPLE TRADE IN
                                             </Card.Text>
                                             <Card.Title className='fs-4'>
                                                 Trade in your device, get <br />credit toward a new one.¹
                                             </Card.Title>
+
                                         </Card.ImgOverlay>
                                     </Card>
                                 </div>
@@ -374,11 +287,11 @@ function Mac(props) {
                             <div className="row">
                                 <div className="col-6">
                                     <Card className="text-dark bg-black" style={{ width: 480 }}>
-                                        <Card.Img className='rounded mb-0' src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mac-card-50-monthly-payments-202108?wid=480&hei=500&fmt=p-jpg&qlt=95&.v=1625760820000" alt="Card image" />
+                                        <Card.Img className='rounded mb-0' src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-card-40-monthlypayments-202108?wid=480&hei=500&fmt=p-jpg&qlt=95&.v=1632249509000" alt="Card image" />
                                         <Card.ImgOverlay>
                                             <Card.Text className='fs-6'>LOW MONTHLY PAYMENTS
                                             </Card.Text>
-                                            <Card.Title className='fs-4 mt-4'>Pay 0% APR over 12 months when you <br /> choose to check out with Apple Card Monthly Installments.²
+                                            <Card.Title className='fs-4 mt-4 fw-bold'>Pay 0% APR over 24 <br />months when you choose to <br />check out with Apple Card <br />Monthly Installments.²
                                             </Card.Title>
                                         </Card.ImgOverlay>
                                     </Card>
@@ -407,48 +320,62 @@ function Mac(props) {
             </div>
 
             <section>
-                <div className="container offset-lg-1 d-lg-block d-none d-md-none position-relative" >
-                    <div className="row">
-                        <Card className="text-dark border border-5 position-relative start-50" style={{ width: 550 }}>
-                            <Card.Img className='rounded' src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mac-card-50-apple-gifting-202108?wid=480&hei=500&fmt=p-jpg&qlt=95&.v=1627430357000" alt="Card image" />
-                            <Card.ImgOverlay>
-                                <Card.Text className='fs-6'>
-                                    APPLE GIFTING
-                                </Card.Text>
-                                <Card.Title className='fw-bold fs-2'>
-                                    Add a special touch to <br /> your gift.
-                                </Card.Title>
-                            </Card.ImgOverlay>
-                        </Card>
-                        <Card className="text-dark border border-5 ms-5 position-absolute top-0 start-0" style={{ width: 465, height: 260 }}>
-                            <div className="container position-relative mt-2">
-                                <Apple color={'coral'} size={50} />
-                            </div>
-                            <Card.ImgOverlay>
-                                <Card.Title className='fw-bold mt-5'>
-                                    <p className='d-inline rainbow-text'>Customize </p>  your Mac <br /><p className='fw-normal'>
-                                        Build it just the way you want. Choose your memory, storage, graphics, even color.
-                                    </p>
-                                </Card.Title>
-                            </Card.ImgOverlay>
-                        </Card>
-                        <Card className="text-dark border border-5 ms-5 position-absolute bottom-0 start-0" style={{ width: 465, height: 260 }}>
-                            <Card.Img className='rounded' src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mac-card-25-apps-202108?wid=500&hei=260&fmt=p-jpg&qlt=95&.v=1625760933000" alt="Card image" />
-                            <Card.ImgOverlay>
-                                <p className='fw-normal'>
-                                    ONLINE PERSONAL SESSION</p>
-                                <Card.Title className='fs-4 fw-bold mt-2'>
-                                    Get to know your new Mac. <br />From the basics to top tips.
-                                </Card.Title>
-                            </Card.ImgOverlay>
-                        </Card>
-                    </div>
+                <Carousel>
+                    <Carousel.Item>
+                        <div className="card offset-1 d-lg-block d-none d-md-none border border-white" >
+                            <div className="row">
+                                <div className="col-6">
+                                    <Card className="text-dark bg-black" style={{ width: 480 }}>
+                                        <Card.Img className='rounded mb-0' src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-card-50-engraving-202108?wid=480&hei=500&fmt=p-jpg&qlt=95&.v=1625269613000" alt="Card image" />
+                                        <Card.ImgOverlay>
+                                            <Card.Text className='fs-6'>
+                                                FREE ENGRAVING
+                                            </Card.Text>
+                                            <Card.Title className='fs-4'>
+                                                Personalize your iPad with <br />a message or emoji.
+                                            </Card.Title>
 
-                </div>
-            </section >
+                                        </Card.ImgOverlay>
+                                    </Card>
+                                </div>
+                                <div className="col-6">
+                                    <Card className="text-dark bg-black" style={{ width: 480 }}>
+                                        <Card.Img className='rounded mb-0' src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-card-50-basic-tips-202109?wid=480&hei=500&fmt=p-jpg&qlt=95&.v=1631731651000" alt="Card image" />
+                                        <Card.ImgOverlay>
+                                            <Card.Text className='fs-6'>ONLINE PERSONAL SESSION
+                                            </Card.Text>
+                                            <Card.Title className='fs-4'>
+                                                Get to know your new iPad. <br />From the basics to top tips.
+                                            </Card.Title>
+                                        </Card.ImgOverlay>
+                                    </Card>
+                                </div>
+
+                            </div>
+                        </div>
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <div className="card offset-1 d-lg-block d-none d-md-none border border-white">
+                            <div className="row">
+                                <div className="col-6">
+                                    <Card className="text-dark bg-black" style={{ width: 480 }}>
+                                        <Card.Img className='rounded mb-0' src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-card-50-apple-gifting-202108?wid=480&hei=500&fmt=p-jpg&qlt=95&.v=1628181535000" alt="Card image" />
+                                        <Card.ImgOverlay>
+                                            <Card.Text className='fs-6'>APPLE GIFTING
+                                            </Card.Text>
+                                            <Card.Title className='fs-4 mt-4 fw-bold'>Add a special touch to <br />your gift.
+                                            </Card.Title>
+                                        </Card.ImgOverlay>
+                                    </Card>
+                                </div>
+                            </div>
+                        </div>
+                    </Carousel.Item>
+                </Carousel>
+            </section>
 
             <div className='fs-4 fw-bold offset-1 my-4 d-lg-block d-none d-md-none' style={{ fontFamily: "../fonts/SF-Pro-Display-Semibold.otf" }}>
-                Accessories.<p className='text-secondary d-inline'> Made for Mac.</p>
+                iPad Accessories.<p className='text-secondary d-inline'> Work and create with ease.</p>
             </div>
 
             <section>
@@ -458,10 +385,10 @@ function Mac(props) {
                             <div className="row">
                                 <div className="col-4">
                                     <Card className="text-dark bg-white" style={{ width: 320 }}>
-                                        <Card.Img className='rounded mb-0' src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mac-card-40-magic-acc-202203?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1645055994661" alt="Card image" />
+                                        <Card.Img className='rounded mb-0' src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-card-50-story-202203_GEO_US?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1645557248403" alt="Card image" />
                                         <Card.ImgOverlay>
-                                            <Card.Title className='mt-2 fw-bold'>
-                                                Shop Magic accessories to complete your studio.
+                                            <Card.Title className='mt-4 fw-bold'>
+                                                Accessories that have you covered.
                                             </Card.Title>
                                         </Card.ImgOverlay>
                                     </Card>
@@ -469,29 +396,29 @@ function Mac(props) {
                                 </div>
                                 <div className="col-4">
                                     <Card className="text-dark bg-white" style={{ width: 320 }}>
-                                        <Card.Img className='rounded mb-0 mx-auto' style={{ width: 250, height: 249 }} src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MK0U3?wid=200&hei=200&fmt=jpeg&qlt=95&.v=1646446502337" alt="Card image" />
+                                        <Card.Img className='rounded mb-0 mx-auto' style={{ width: 250, height: 249 }} src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MJQJ3LL?wid=200&hei=200&fmt=jpeg&qlt=95&.v=1645163989903" alt="Card image" />
                                         <Card.ImgOverlay className='bg-white position-relative'>
-                                            <Card.Text style={{ color: 'red' }}>
+                                            <Card.Text style={{ color: 'white' }}>
                                                 New
                                             </Card.Text>
                                             <Card.Title>
-                                                Studio Display - Standard glass - Tilt-adjustable stand
+                                                Magic Keyboard for iPad Pro 11-inch (3rd generation) and...
                                             </Card.Title>
-                                            <Card.Text>$1599.00</Card.Text>
+                                            <Card.Text>$299.00</Card.Text>
                                         </Card.ImgOverlay>
                                     </Card>
                                 </div>
                                 <div className="col-4">
                                     <Card className="text-dark bg-white" style={{ width: 320 }}>
-                                        <Card.Img className='rounded mb-0 mx-auto' style={{ width: 250, height: 249 }} src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MMMR3?wid=200&hei=200&fmt=jpeg&qlt=95&.v=1645719947833" alt="Card image" />
+                                        <Card.Img className='rounded mb-0 mx-auto' style={{ width: 250, height: 275 }} src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MU8F2?wid=200&hei=200&fmt=jpeg&qlt=95&.v=1540596407165" alt="Card image" />
                                         <Card.ImgOverlay className='bg-white position-relative'>
                                             <Card.Text style={{ color: 'red' }}>
-                                                New
+                                                Free Engraving
                                             </Card.Text>
                                             <Card.Title>
-                                                Magic Keyboard with Touch ID and Numeric Keypad for Mac
+                                                Apple Pencil (2nd generation)
                                             </Card.Title>
-                                            <Card.Text>$199.00</Card.Text>
+                                            <Card.Text>$129.00</Card.Text>
                                         </Card.ImgOverlay>
                                     </Card>
                                 </div>
@@ -503,43 +430,43 @@ function Mac(props) {
                             <div className="row">
                                 <div className="col-4">
                                     <Card className="text-dark bg-white" style={{ width: 320 }}>
-                                        <Card.Img className='rounded mb-0 mx-auto' style={{ width: 250, height: 249 }} src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MMMQ3?wid=200&hei=200&fmt=jpeg&qlt=95&.v=1645138486301" alt="Card image" />
+                                        <Card.Img className='rounded mb-0 mx-auto' style={{ width: 250, height: 249 }} src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MXNK2LL?wid=200&hei=200&fmt=jpeg&qlt=95&.v=1646273938554" alt="Card image" />
                                         <Card.ImgOverlay className='bg-white position-relative'>
-                                            <Card.Text style={{ color: 'red' }}>
+                                            <Card.Text style={{ color: 'white' }}>
                                                 New
                                             </Card.Text>
                                             <Card.Title>
-                                                Magic Mouse - Black Multi-Touch Surface
+                                                Smart Keyboard Folio for iPad Pro 11-inch (3rd generation)...
                                             </Card.Title>
-                                            <Card.Text>$99.00</Card.Text>
+                                            <Card.Text>$179.00</Card.Text>
                                         </Card.ImgOverlay>
                                     </Card>
                                 </div>
                                 <div className="col-4">
                                     <Card className="text-dark bg-white" style={{ width: 320 }}>
-                                        <Card.Img className='rounded mb-0 mx-auto' style={{ width: 250, height: 249 }} src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MMMP3?wid=200&hei=200&fmt=jpeg&qlt=95&.v=1645136899926" alt="Card image" />
+                                        <Card.Img className='rounded mb-0 mx-auto' style={{ width: 250, height: 249 }} src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MNA73?wid=200&hei=200&fmt=jpeg&qlt=95&.v=1645642309453" alt="Card image" />
                                         <Card.ImgOverlay className='bg-white position-relative'>
-                                            <Card.Text style={{ color: 'red' }}>
-                                                New
+                                            <Card.Text style={{ color: 'white' }}>
+                                                Not New
                                             </Card.Text>
                                             <Card.Title>
-                                                Magic Trackpad - Black Multi-Touch Surface
+                                                Smart Folio for iPad Air (5th generation) - Marine Blue
                                             </Card.Title>
-                                            <Card.Text>$149.00</Card.Text>
+                                            <Card.Text>$79.00</Card.Text>
                                         </Card.ImgOverlay>
                                     </Card>
                                 </div>
                                 <div className="col-4">
                                     <Card className="text-dark bg-white" style={{ width: 320 }}>
-                                        <Card.Img className='rounded mb-0 mx-auto' style={{ width: 250, height: 249 }} src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MN713?wid=200&hei=200&fmt=jpeg&qlt=95&.v=1645063997942" alt="Card image" />
+                                        <Card.Img className='rounded mb-0 mx-auto' style={{ width: 250, height: 275 }} src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MWP22?wid=200&hei=200&fmt=jpeg&qlt=95&.v=1591634795000" alt="Card image" />
                                         <Card.ImgOverlay className='bg-white position-relative'>
                                             <Card.Text style={{ color: 'red' }}>
-                                                New
+                                                Free Engraving
                                             </Card.Text>
                                             <Card.Title>
-                                                Thunderbolt 4 Pro Cable (1.8 m)
+                                                AirPods Pro
                                             </Card.Title>
-                                            <Card.Text>$129.00</Card.Text>
+                                            <Card.Text>$249.00</Card.Text>
                                         </Card.ImgOverlay>
                                     </Card>
                                 </div>
@@ -552,25 +479,23 @@ function Mac(props) {
                             <div className="row">
                                 <div className="col-4">
                                     <Card className="text-dark bg-white" style={{ width: 320 }}>
-                                        <Card.Img className='rounded mb-0 mx-auto' style={{ width: 250, height: 249 }} src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MM6F3?wid=200&hei=200&fmt=jpeg&qlt=95&.v=1632956535000" alt="Card image" />
+                                        <Card.Img className='rounded mb-0 mx-auto' style={{ width: 250, height: 249 }} src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MX3L2US?wid=200&hei=200&fmt=jpeg&qlt=95&.v=1631228524000" alt="Card image" />
                                         <Card.ImgOverlay className='bg-white position-relative'>
-                                            <Card.Text style={{ color: 'red' }}>
-                                                New
+                                            <Card.Text style={{ color: 'white' }}>
+                                                Not New
                                             </Card.Text>
                                             <Card.Title>
-                                                Polishing Cloth
-                                                <br />
-                                                <br />
+                                                Smart Keyboard for iPad (9th generation) - US English
                                             </Card.Title>
-                                            <Card.Text>$19.00</Card.Text>
+                                            <Card.Text>$159.00</Card.Text>
                                         </Card.ImgOverlay>
                                     </Card>
                                 </div>
                                 <div className="col-4">
                                     <Card className="text-dark bg-white" style={{ width: 320 }}>
-                                        <Card.Img className='rounded mb-0' src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mac-card-40-explore-mac-acc-202203?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1645055994778" alt="Card image" />
+                                        <Card.Img className='rounded mb-0' src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-card-40-accessories-202203_GEO_US?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1645553817814" alt="Card image" />
                                         <Card.ImgOverlay>
-                                            <Card.Title className='fw-bold fs-3 mt-4'>Explore all Mac accessories.</Card.Title>
+                                            <Card.Title className='fw-bold fs-3 mt-4'>Explore all iPad accessories.</Card.Title>
                                         </Card.ImgOverlay>
                                     </Card>
                                 </div>
@@ -588,11 +513,11 @@ function Mac(props) {
             <section>
                 <Carousel>
                     <Carousel.Item>
-                        <div className="card offset-1 d-lg-block d-none d-md-none" >
+                        <div className="card offset-1 d-lg-block d-none d-md-none border border-white" >
                             <div className="row">
                                 <div className="col-6">
-                                    <Card className="text-dark bg-black" style={{ width: 480 }}>
-                                        <Card.Img className='rounded mb-0' src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mac-card-50-applecare-202111?wid=480&hei=500&fmt=png-alpha&.v=1635293660000" alt="Card image" />
+                                    <Card className="text-light bg-black" style={{ width: 480 }}>
+                                        <Card.Img className='rounded mb-0' src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-card-50-applecare-202111?wid=480&hei=500&fmt=png-alpha&.v=1635293656000" alt="Card image" />
                                         <Card.ImgOverlay>
                                             <Card.Text className='fs-6'>
                                                 WATCH AND LEARN
@@ -600,23 +525,22 @@ function Mac(props) {
                                             <Card.Title className='fs-4'>
                                                 It’s no problem with <br /> AppleCare+.
                                             </Card.Title>
-                                            <div className='container-fluid bg-opacity-75 bg-white position-absolute bottom-0 start-0 py-3'>
-                                                Learn how to protect your Mac in <br /> this 30‑second video.
-                                                <Play className='position-absolute bg-white rounded-circle mb-4 mx-3 bottom-0 end-0' size={30} />
+                                            <div className='container-fluid bg-opacity-75 bg-dark position-absolute bottom-0 start-0 py-3'>
+                                                Learn how to protect your iPad in <br /> this 30‑second video.
+                                                <Play className='position-absolute bg-secondary rounded-circle mb-4 mx-3 bottom-0 end-0' size={30} />
                                             </div>
                                         </Card.ImgOverlay>
                                     </Card>
                                 </div>
                                 <div className="col-6">
                                     <Card className="text-dark bg-black" style={{ width: 480 }}>
-                                        <Card.Img className='rounded mb-0' src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mac-card-50-virtual-session-202108?wid=480&hei=500&fmt=p-jpg&qlt=95&.v=1625761002000" alt="Card image" />
+                                        <Card.Img className='rounded mb-0' src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-card-50-icloud-202109?wid=480&hei=500&fmt=p-jpg&qlt=95&.v=1629955002000" alt="Card image" />
                                         <Card.ImgOverlay>
                                             <Card.Text className='fs-6'>
-                                                TODAY AT APPLE
+                                                EASY DATA TRANSFER
                                             </Card.Text>
                                             <Card.Title className='fs-4'>
-                                                Virtual Session: Getting <br />Started with Mac
-
+                                                Access all the iCloud <br />storage you need to move <br />everything over to your <br />new iPad.
                                             </Card.Title>
                                         </Card.ImgOverlay>
                                     </Card>
@@ -625,17 +549,30 @@ function Mac(props) {
                         </div>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <div className="card offset-1 d-lg-block d-none d-md-none" >
+                        <div className="card offset-1 d-lg-block d-none d-md-none  border border-white" >
                             <div className="row">
                                 <div className="col-6">
                                     <Card className="text-dark bg-black" style={{ width: 480 }}>
-                                        <Card.Img className='rounded mb-0' src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mac-card-50-data-transfer-202110_GEO_US?wid=480&hei=500&fmt=p-jpg&qlt=95&.v=1634001507000" alt="Card image" />
+                                        <Card.Img className='rounded mb-0' src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-card-50-setupguide-202108_GEO_US?wid=480&hei=500&fmt=p-jpg&qlt=95&.v=1633374627000" alt="Card image" />
                                         <Card.ImgOverlay>
                                             <Card.Text className='fs-6'>
-                                                EASY DATA TRANSFER
+                                                QUICK START SETUP
                                             </Card.Text>
                                             <Card.Title className='fs-4 mt-4'>
-                                                New Mac? See how easy it is to move your content over.
+                                                Automatically set up your <br />new iPad with your <br />current iOS device.
+                                            </Card.Title>
+                                        </Card.ImgOverlay>
+                                    </Card>
+                                </div>
+                                <div className="col-6">
+                                    <Card className="text-dark bg-black" style={{ width: 480 }}>
+                                        <Card.Img className='rounded mb-0' src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-card-50-todayatapple-202203?wid=480&hei=500&fmt=p-jpg&qlt=95&.v=1644963050293" alt="Card image" />
+                                        <Card.ImgOverlay>
+                                            <Card.Text className='fs-6'>
+                                                TODAY AT APPLE
+                                            </Card.Text>
+                                            <Card.Title className='fs-4'>
+                                                Virtual Session: Getting Started <br />with iPad.
                                             </Card.Title>
                                         </Card.ImgOverlay>
                                     </Card>
@@ -647,7 +584,7 @@ function Mac(props) {
             </section>
 
             <div className='fs-4 fw-bold offset-1 my-4 d-lg-block d-none d-md-none' style={{ fontFamily: "../fonts/SF-Pro-Display-Semibold.otf" }}>
-                Do more.<p className='text-secondary d-inline'> See what else you can do with Mac.</p>
+                Do more.<p className='text-secondary d-inline'> See what else you can do with iPad.</p>
             </div>
 
             <section>
@@ -657,28 +594,26 @@ function Mac(props) {
                             <div className="row">
                                 <div className="col-6">
                                     <Card className="text-dark bg-black" style={{ width: 480 }}>
-                                        <Card.Img className='rounded mb-0' src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mac-card-50-why-mac-202110?wid=480&hei=500&fmt=p-jpg&qlt=95&.v=1634002551000" alt="Card image" />
+                                        <Card.Img className='rounded mb-0' src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-card-50-whyipad-202108?wid=480&hei=500&fmt=p-jpg&qlt=95&.v=1647597399412" alt="Card image" />
                                         <Card.ImgOverlay>
                                             <Card.Text className='fs-6'>
-                                                WHY MAC
+                                                WHY IPAD
                                             </Card.Text>
                                             <Card.Title className='fs-4'>
-                                                Incredible power. <br /> Incredibly simple.
-
+                                                Yes, it does that. And then some.
                                             </Card.Title>
                                         </Card.ImgOverlay>
                                     </Card>
                                 </div>
                                 <div className="col-6">
                                     <Card className="text-dark bg-black" style={{ width: 480 }}>
-                                        <Card.Img className='rounded mb-0' src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mac-card-50-macos-202110_GEO_US?wid=480&hei=500&fmt=p-jpg&qlt=95&.v=1634002399000" alt="Card image" />
+                                        <Card.Img className='rounded mb-0' src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-card-50-ios-202109?wid=480&hei=500&fmt=p-jpg&qlt=95&.v=1632259716000" alt="Card image" />
                                         <Card.ImgOverlay>
                                             <Card.Text className='fs-6'>
-                                                MACOS
+                                                IPADOS
                                             </Card.Text>
-                                            <Card.Title className='fs-4'>
-                                                Connect, share, and create <br />like never before. Discover <br />macOS Monterey.
-
+                                            <Card.Title className='fs-4 mt-3'>
+                                                Work wonders. With ease.
                                             </Card.Title>
                                         </Card.ImgOverlay>
                                     </Card>
@@ -692,76 +627,41 @@ function Mac(props) {
                             <div className="row">
                                 <div className="col-6">
                                     <Card className="text-dark bg-black" style={{ width: 480 }}>
-                                        <Card.Img className='rounded mb-0' src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mac-card-50-icloud-202111?wid=480&hei=500&fmt=p-jpg&qlt=95&.v=1635434008000" alt="Card image" />
+                                        <Card.Img className='rounded mb-0' src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-card-50-appletv-202108?wid=480&hei=500&fmt=p-jpg&qlt=95&.v=1626831782000" alt="Card image" />
                                         <Card.ImgOverlay>
-                                            <Card.Text className='fs-6'>ICLOUD+
+                                            <Card.Text className='fs-6 text-secondary'> <small>
+                                                APPLE TV+
+                                            </small>
                                             </Card.Text>
-                                            <Card.Title className='fs-4 mt-4'>
-                                                Get more storage and <br />great new ways to protect <br />your privacy.
+                                            <Card.Title className='fs-4 text-light'>
+                                                New Apple Originals every <br />month.
                                             </Card.Title>
                                         </Card.ImgOverlay>
                                     </Card>
                                 </div>
                                 <div className="col-6">
-                                    <Card className="text-dark bg-black" style={{ width: 480 }}>
-                                        <Card.Img className='rounded mb-0' src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mac-card-50-refurb-202202?wid=480&hei=500&fmt=p-jpg&qlt=95&.v=1643155826000" alt="Card image" />
+                                    <Card className="text-dark border border-2 ms-5 position-absolute top-0 start-50" style={{ width: 465, height: 240 }}>
+                                        <Card.Img className='rounded' src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-card-25-apple-at-college-202109?wid=480&hei=240&fmt=p-jpg&qlt=95&.v=1629928306000" alt="Card image" />
                                         <Card.ImgOverlay>
-                                            <Card.Text className='fs-6'>
-                                                CERTIFIED REFURBISHED
-                                            </Card.Text>
-                                            <Card.Title className='fs-3'>
-                                                Shop like-new products <br />backed by a one-year <br />warranty.</Card.Title>
-                                        </Card.ImgOverlay>
-                                    </Card>
-
-                                </div>
-                            </div>
-                        </div>
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <div className="card offset-1 d-lg-block d-none d-md-none border border-white">
-                            <div className="row">
-                                <div className="col-6">
-                                    <div className="row">
-                                        <Card className="text-light bg-black" style={{ width: 480, height: 240 }}>
-                                            <Card.Img className='rounded mb-0 mx-auto' src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mac-card-25-college-202108?wid=480&hei=240&fmt=p-jpg&qlt=95&.v=1625760980000" alt="Card image" />
-                                            <Card.ImgOverlay>
-                                                <Card.Text className='fs-6 text-secondary'>APPLE AT COLLEGE
-                                                </Card.Text>
-                                                <Card.Title className='fs-4 mt-4'>
-                                                    Ace it all with <br />Apple.
-                                                </Card.Title>
-                                                <Card.Text className='fs-6'>
-                                                    Take your learning to the <br />next level with Mac.
-                                                </Card.Text>
-                                            </Card.ImgOverlay>
-                                        </Card>
-                                    </div>
-                                    <br />
-                                    <div className="row">
-                                        <Card className="text-light bg-black" style={{ width: 480, height: 240 }}>
-                                            <Card.Img className='rounded mb-0' src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mac-card-25-work-202108?wid=480&hei=240&fmt=p-jpg&qlt=95&.v=1625760980000" alt="Card image" />
-                                            <Card.ImgOverlay>
-                                                <Card.Text className='fs-6 text-secondary'>
-                                                    APPLE AT WORK
-                                                </Card.Text>
-                                                <Card.Title className='fs-4 mt-4'>
-                                                    Power your <br />workplace with <br />Apple hardware, <br />software, and <br />services.
-                                                </Card.Title>
-                                            </Card.ImgOverlay>
-                                        </Card></div>
-
-                                </div>
-                                <div className="col-6">
-                                    <Card className="text-dark bg-black" style={{ width: 480 }}>
-                                        <Card.Img className='rounded mb-0' src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mac-card-50-appleone-202108?wid=480&hei=500&fmt=p-jpg&qlt=95&.v=1625760978000" alt="Card image" />
-                                        <Card.ImgOverlay>
-                                            <Card.Title className='fs-3 mt-3'>
-                                                Six Apple services. <br />One easy subscription.
+                                            <p className='fw-normal'>
+                                                APPLE AT COLLEGE
+                                            </p>
+                                            <Card.Title className='fs-4 fw-bold mt-2'>
+                                                Light in your backpack. <br />Heavy on features.
                                             </Card.Title>
                                         </Card.ImgOverlay>
                                     </Card>
-
+                                    <Card className="text-dark border border-2 ms-5 position-absolute bottom-0 start-50" style={{ width: 465, height: 240 }}>
+                                        <Card.Img className='rounded' src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-card-25-apple-at-work-202109?wid=480&hei=240&fmt=p-jpg&qlt=95&.v=1631386713000" alt="Card image" />
+                                        <Card.ImgOverlay>
+                                            <p className='fw-normal'>
+                                                APPLE AT WORK
+                                            </p>
+                                            <Card.Title className='fs-4 fw-bold mt-2'>
+                                                Breeze through <br />your workflow
+                                            </Card.Title>
+                                        </Card.ImgOverlay>
+                                    </Card>
                                 </div>
                             </div>
                         </div>
@@ -780,30 +680,30 @@ function Mac(props) {
                             <div className="row">
                                 <div className="col-6">
                                     <Card className="text-dark bg-black" style={{ width: 480 }}>
-                                        <Card.Img className='rounded mb-0' src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mac-card-40-education-202110_GEO_US?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1634004541000" alt="Card image" />
+                                        <Card.Img className='rounded mb-0' src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-40-edu-202108?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1627492399000" alt="Card image" />
                                         <Card.ImgOverlay>
                                             <Card.Text className='fs-6'>
                                                 EDUCATION
                                             </Card.Text>
-                                            <Card.Title className='fs-4'>
-                                                Save on a new Mac with <br />special education pricing.³
+                                            <Card.Title className='fs-2 fw-bold'>
+                                                We offer special iPad <br />pricing for students and <br />educators.³
                                             </Card.Title>
                                         </Card.ImgOverlay>
                                     </Card>
                                 </div>
                                 <div className="col-6">
                                     <Card className="text-light bg-black" style={{ width: 480 }}>
-                                        <Card.Img className='rounded mb-0' src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mac-card-40-business-202108?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1627073464000" alt="Card image" />
+                                        <Card.Img className='rounded mb-0' src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-40-small-business-202108?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1627318784000" alt="Card image" />
                                         <Card.ImgOverlay>
                                             <Card.Text className='fs-6 text-secondary'>BUSINESS
                                             </Card.Text>
-                                            <Card.Title className='fs-4'>
-                                                From enterprise to small <br />business, we’ll work with <br />you.³
+                                            <Card.Title className='fs-2 fw-bold'>
+                                                From enterprise to small business, we’ll work with you.2
+
                                             </Card.Title>
                                         </Card.ImgOverlay>
                                     </Card>
                                 </div>
-
                             </div>
                         </div>
                     </Carousel.Item>
@@ -814,11 +714,11 @@ function Mac(props) {
                                     <Card className="text-light bg-black" style={{ width: 480 }}>
                                         <Card.Img className='rounded mb-0' src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-40-gov-202108?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1632870676000" alt="Card image" />
                                         <Card.ImgOverlay>
+
                                             <Card.Text className='fs-6 text-secondary'>GOVERNMENT
                                             </Card.Text>
-                                            <Card.Title className='fs-4 mt-4'>
-                                                Special pricing is available <br />for state, local, and federal <br />agencies.³
-
+                                            <Card.Title className='fs-2 fw-bold'>
+                                                Special pricing is available for state, local, and federal agencies.2
                                             </Card.Title>
                                         </Card.ImgOverlay>
                                     </Card>
@@ -827,15 +727,13 @@ function Mac(props) {
                                     <Card className="text-dark bg-black" style={{ width: 480 }}>
                                         <Card.Img className='rounded mb-0' src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-40-veterans-202203?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1645468079106" alt="Card image" />
                                         <Card.ImgOverlay>
-                                            <Card.Text className='fs-6'>
-                                                VETERANS AND MILITARY
+                                            <Card.Text className='fs-6 text-secondary'>VETERANS AND MILITARY
                                             </Card.Text>
-                                            <Card.Title className='fs-3'>
-                                                Active and veteran <br />members may be eligible <br />for exclusive savings.³
+                                            <Card.Title className='fs-2 fw-bold'>
+                                                Active and veteran members may be eligible for exclusive savings.2
                                             </Card.Title>
                                         </Card.ImgOverlay>
                                     </Card>
-
                                 </div>
                             </div>
                         </div>
@@ -844,35 +742,37 @@ function Mac(props) {
             </section>
 
 
-            <p className='offset-1 lh-1 mt-5 text-secondary d-lg-block d-none d-md-none'>
-                * Monthly pricing is available when you select Apple Card Monthly Installments (ACMI) as payment type at checkout at Apple, and is subject to credit approval and credit limit. Financing terms vary by product. Taxes and shipping are not included in ACMI and are subject to your card’s variable APR. See the Apple Card Customer Agreement(Opens in a new window) for more information. ACMI is not available for purchases made online at special storefronts. The last month’s payment for each product will be the product’s purchase price, less all other payments at the monthly payment amount.
-            </p>
-            <p className='offset-1 lh-1 text-secondary d-lg-block d-none d-md-none'>
+            <small className='offset-1 lh-1 mt-5 text-secondary d-lg-block d-none d-md-none'>
+                * Monthly pricing is available when you select Apple Card Monthly Installments (ACMI) as payment type at checkout at Apple, and is subject to credit approval and credit limit. Financing terms vary by product. Taxes and shipping are not included in ACMI and are subject to your card’s variable APR. See the Apple Card Customer Agreement for more information. ACMI is not available for purchases made online at special storefronts. The last month’s payment for each product will be the product’s purchase price, less all other payments at the monthly payment amount.
+            </small>
+            <small className='offset-1 lh-1 text-secondary d-lg-block d-none d-md-none'>
                 1. Trade-in values will vary based on the condition, year, and configuration of your eligible trade-in device. Not all devices are eligible for credit. You must be at least 18 years old to be eligible to trade in for credit or for an Apple Gift Card. Trade-in value may be applied toward qualifying new device purchase, or added to an Apple Gift Card. Actual value awarded is based on receipt of a qualifying device matching the description provided when estimate was made. Sales tax may be assessed on full value of a new device purchase. In-store trade-in requires presentation of a valid photo ID (local law may require saving this information). Offer may not be available in all stores, and may vary between in-store and online trade-in. Some stores may have additional requirements. Apple or its trade-in partners reserve the right to refuse or limit quantity of any trade-in transaction for any reason. More details are available from Apple’s trade-in partner for trade-in and recycling of eligible devices. Restrictions and limitations may apply.
-            </p>
-            <p className='offset-1 lh-1 text-secondary d-lg-block d-none d-md-none'>
-                2. Apple Card Monthly Installments (ACMI) is a 0% APR payment option available to select at checkout for certain Apple products purchased at Apple Store locations, apple.com(Opens in a new window), the Apple Store app, or by calling 1-800-MY-APPLE, and is subject to credit approval and credit limit. See https://support.apple.com/kb/HT211204(Opens in a new window) for more information about eligible products. Variable APRs for Apple Card other than ACMI range from 10.99% to 21.99% based on creditworthiness. Rates as of April 1, 2020. If you choose the pay-in-full or one-time-payment option for an ACMI eligible purchase instead of choosing ACMI as the payment option at checkout, that purchase will be subject to the variable APR assigned to your Apple Card. Taxes and shipping are not included in ACMI and are subject to your card’s variable APR. See the Apple Card Customer Agreement(Opens in a new window) for more information. ACMI is not available for purchases made online at the following special stores: Apple Employee Purchase Plan; participating corporate Employee Purchase Programs; Apple at Work for small businesses; Government, and Veterans and Military Purchase Programs, or on refurbished devices. iPhone activation required on iPhone purchases made at an Apple Store with one of these national carriers: AT&T, Sprint, Verizon, or T-Mobile.
-            </p>
-            <p className='offset-1 lh-1 text-secondary d-lg-block d-none d-md-none'>
-                3. Special pricing available to qualified customers. To learn more about how to start qualifying toward special pricing, talk to an Apple Specialist in a store or give us a call at 1‑800‑MY‑APPLE.
-            </p>
-            <p className='offset-1 lh-1 text-secondary d-lg-block d-none d-md-none'>
+            </small>
+            <small className='offset-1 lh-1 text-secondary d-lg-block d-none d-md-none'>
+                2. Apple Card Monthly Installments (ACMI) is a 0% APR payment option available to select at checkout for certain Apple products purchased at Apple Store locations, apple.com, the Apple Store app, or by calling 1-800-MY-APPLE, and is subject to credit approval and credit limit. See https://support.apple.com/kb/HT211204 for more information about eligible products. Variable APRs for Apple Card other than ACMI range from 10.99% to 21.99% based on creditworthiness. Rates as of April 1, 2020. If you choose the pay-in-full or one-time-payment option for an ACMI eligible purchase instead of choosing ACMI as the payment option at checkout, that purchase will be subject to the variable APR assigned to your Apple Card. Taxes and shipping are not included in ACMI and are subject to your card’s variable APR. See the Apple Card Customer Agreement for more information. ACMI is not available for purchases made online at the following special stores: Apple Employee Purchase Plan; participating corporate Employee Purchase Programs; Apple at Work for small businesses; Government, and Veterans and Military Purchase Programs, or on refurbished devices. iPhone activation required on iPhone purchases made at an Apple Store with one of these national carriers: AT&T, Sprint, Verizon, or T-Mobile.
+            </small>
+            <small className='offset-1 lh-1 text-secondary d-lg-block d-none d-md-none'>
                 To access and use all the features of Apple Card, you must add Apple Card to Wallet on an iPhone or iPad with the latest version of iOS or iPadOS. Update to the latest version by going to Settings General Software Update. Tap Download and Install.
-            </p>
-            <p className='offset-1 lh-1 text-secondary d-lg-block d-none d-md-none'>
+            </small>
+            <small className='offset-1 lh-1 text-secondary d-lg-block d-none d-md-none'>
                 Available for qualifying applicants in the United States.
-
-            </p>
-            <p className='offset-1 lh-1 text-secondary d-lg-block d-none d-md-none'>
+            </small>
+            <small className='offset-1 lh-1 text-secondary d-lg-block d-none d-md-none'>
                 Apple Card is issued by Goldman Sachs Bank USA, Salt Lake City Branch.
-            </p>
-            <p className='offset-1 lh-1 text-secondary d-lg-block d-none d-md-none'>
+            </small>
+            <small className='offset-1 lh-1 text-secondary d-lg-block d-none d-md-none'>
+                3. Special pricing available to qualified customers. To learn more about how to start qualifying toward special pricing, talk to an Apple Specialist in a store or give us a call at 1‑800‑MY‑APPLE.
+            </small>
+            <small className='offset-1 lh-1 text-secondary d-lg-block d-none d-md-none'>
+                Apple Card is issued by Goldman Sachs Bank USA, Salt Lake City Branch.
+            </small>
+            <small className='offset-1 lh-1 text-secondary d-lg-block d-none d-md-none'>
                 †† We approximate your location from your internet IP address by matching it to a geographic region or from the location entered during your previous visit to Apple.
                 <hr style={{ height: 1 }} />
-            </p>
+            </small>
 
         </div >
     );
 }
 
-export default Mac;
+export default Ipad;
