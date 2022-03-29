@@ -6,6 +6,8 @@ import Navbar from '../Views/Components/Navbar';
 import Footer from '../Views/Components/Footer';
 import NotFound from '../Views/NotFound';
 import Checkoutmac from '../Views/product/Mac/Checkoutmac';
+import Iphone from '../Views/product/Iphone/Iphone';
+import Checkoutiphone from '../Views/product/Iphone/Checkoutiphone';
 
 function Router(props) {
     return (
@@ -31,6 +33,18 @@ function Router(props) {
             <Route path='*/macbook-air'>
                 <Navbar>
                     <Checkoutmac />
+                    <Footer />
+                </Navbar>
+            </Route>
+            <Route path='*/buy-iphone'>
+                <Navbar>
+                    <Iphone />
+                    <Footer />
+                </Navbar>
+            </Route>
+            <Route path='*/iphone13-pro'>
+                <Navbar>
+                    <Checkoutiphone />
                     <Footer />
                 </Navbar>
             </Route>
