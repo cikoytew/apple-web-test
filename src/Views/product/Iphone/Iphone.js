@@ -85,30 +85,32 @@ function Iphone(props) {
                         <div className="card offset-1 d-lg-block d-none d-md-none border border-white" >
                             <div className="row">
                                 <div className="col-4">
-                                    <Card className="text-dark bg-white" style={{ width: 320 }}>
+                                    <Link to='iphone13-pro' style={{ textDecoration: 'none' }}>
+                                        <Card className="text-dark bg-white" style={{ width: 320 }}>
 
-                                        <Card.Title className='mx-4 mt-4'>
-                                            <Card.Text style={{ color: 'red' }}>
-                                                <small>
-                                                    New
-                                                </small>
-                                            </Card.Text>
-                                            iPhone 13 Pro
-                                        </Card.Title>
-                                        <Card.Img className='rounded mb-0 mx-auto' style={{ width: 250, height: 249 }} src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-card-40-iphone13pro-202203?wid=600&hei=500&fmt=p-jpg&qlt=95&.v=1644989935267" alt="Card image" />
-                                        <Card.ImgOverlay className='bg-white position-relative'>
-                                            <Card.Text>
-                                                <small>
-                                                    From $999or $41.62/mo. for 24 mo.
-                                                </small>
-                                                <Link to='iphone13-pro'>
-                                                    <button className='btn btn-primary rounded-pill text-light position-absolute mb-3 mx-3 bottom-0 end-0'>
-                                                        Buy
-                                                    </button>
-                                                </Link>
-                                            </Card.Text>
-                                        </Card.ImgOverlay>
-                                    </Card>
+                                            <Card.Title className='mx-4 mt-4'>
+                                                <Card.Text style={{ color: 'red' }}>
+                                                    <small>
+                                                        New
+                                                    </small>
+                                                </Card.Text>
+                                                iPhone 13 Pro
+                                            </Card.Title>
+                                            <Card.Img className='rounded mb-0 mx-auto' style={{ width: 250, height: 249 }} src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-card-40-iphone13pro-202203?wid=600&hei=500&fmt=p-jpg&qlt=95&.v=1644989935267" alt="Card image" />
+                                            <Card.ImgOverlay className='bg-white position-relative'>
+                                                <Card.Text>
+                                                    <small>
+                                                        From $999or $41.62/mo. for 24 mo.
+                                                    </small>
+                                                    <Link to='iphone13-pro'>
+                                                        <button className='btn btn-primary rounded-pill text-light position-absolute mb-3 mx-3 bottom-0 end-0'>
+                                                            Buy
+                                                        </button>
+                                                    </Link>
+                                                </Card.Text>
+                                            </Card.ImgOverlay>
+                                        </Card>
+                                    </Link>
                                 </div>
                                 <div className="col-4">
                                     <Card className="text-dark bg-white" style={{ width: 320 }}>
@@ -126,7 +128,7 @@ function Iphone(props) {
                                                 <small>
                                                     From $699or $29.12/mo. for 24 mo.
                                                 </small>
-                                                <button className='btn btn-primary rounded-pill text-light position-absolute mb-3 mx-3 bottom-0 end-0'>
+                                                <button className='btn btn-secondary rounded-pill text-light position-absolute mb-3 mx-3 bottom-0 end-0'>
                                                     Buy
                                                 </button>
                                             </Card.Text>
@@ -149,7 +151,7 @@ function Iphone(props) {
                                                 <small>
                                                     From $429or $17.87/mo. for 24 mo.
                                                 </small>
-                                                <button className='btn btn-primary rounded-pill text-light position-absolute mb-3 mx-3 bottom-0 end-0'>
+                                                <button className='btn btn-secondary rounded-pill text-light position-absolute mb-3 mx-3 bottom-0 end-0'>
                                                     Buy
                                                 </button>
                                             </Card.Text>
@@ -178,7 +180,7 @@ function Iphone(props) {
                                                 <small>
                                                     From $599or $24.95/mo. for 24 mo.
                                                 </small>
-                                                <button className='btn btn-primary rounded-pill text-light position-absolute mb-3 mx-3 bottom-0 end-0'>
+                                                <button className='btn btn-secondary rounded-pill text-light position-absolute mb-3 mx-3 bottom-0 end-0'>
                                                     Buy
                                                 </button>
                                             </Card.Text>
@@ -201,7 +203,7 @@ function Iphone(props) {
                                                 <small>
                                                     From $499or $20.79/mo. for 24 mo.
                                                 </small>
-                                                <button className='btn btn-primary rounded-pill text-light position-absolute mb-3 mx-3 bottom-0 end-0'>
+                                                <button className='btn btn-secondary rounded-pill text-light position-absolute mb-3 mx-3 bottom-0 end-0'>
                                                     Buy
                                                 </button>
                                             </Card.Text>

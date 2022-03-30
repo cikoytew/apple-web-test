@@ -85,24 +85,26 @@ function Mac(props) {
                         <div className="card offset-1 d-lg-block d-none d-md-none border border-white" >
                             <div className="row">
                                 <div className="col-4">
-                                    <Card className="text-dark bg-white" style={{ width: 320 }}>
-                                        <Card.Title className='mx-4 mt-4'>
-                                            MacBook Air
-                                        </Card.Title>
-                                        <Card.Img className='rounded mb-0 mx-auto' style={{ width: 250, height: 249 }} src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mac-card-40-macbook-air-202110?wid=600&hei=500&fmt=p-jpg&qlt=95&.v=1633726242000" alt="Card image" />
-                                        <Card.ImgOverlay className='bg-white position-relative'>
-                                            <Card.Text>
-                                                <small>
-                                                    From $999 or $83.25/mo. for 12 mo.
-                                                </small>
-                                                <Link to='macbook-air'>
-                                                    <button className='btn btn-primary rounded-pill text-light position-absolute mb-3 mx-3 bottom-0 end-0'>
-                                                        Buy
-                                                    </button>
-                                                </Link>
-                                            </Card.Text>
-                                        </Card.ImgOverlay>
-                                    </Card>
+                                    <Link to='macbook-air' style={{ textDecoration: 'none' }}>
+                                        <Card className="text-dark bg-white" style={{ width: 320 }}>
+                                            <Card.Title className='mx-4 mt-4'>
+                                                MacBook Air
+                                            </Card.Title>
+                                            <Card.Img className='rounded mb-0 mx-auto' style={{ width: 250, height: 249 }} src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mac-card-40-macbook-air-202110?wid=600&hei=500&fmt=p-jpg&qlt=95&.v=1633726242000" alt="Card image" />
+                                            <Card.ImgOverlay className='bg-white position-relative'>
+                                                <Card.Text>
+                                                    <small>
+                                                        From $999 or $83.25/mo. for 12 mo.
+                                                    </small>
+                                                    <Link to='macbook-air'>
+                                                        <button className='btn btn-primary rounded-pill text-light position-absolute mb-3 mx-3 bottom-0 end-0'>
+                                                            Buy
+                                                        </button>
+                                                    </Link>
+                                                </Card.Text>
+                                            </Card.ImgOverlay>
+                                        </Card>
+                                    </Link>
                                 </div>
                                 <div className="col-4">
                                     <Card className="text-dark bg-white" style={{ width: 320 }}>
@@ -115,7 +117,7 @@ function Mac(props) {
                                                 <small>
                                                     From $1299 or $108.25/mo.
                                                 </small>
-                                                <button className='btn btn-primary rounded-pill text-light position-absolute mb-3 mx-3 bottom-0 end-0'>
+                                                <button className='btn btn-secondary rounded-pill text-light position-absolute mb-3 mx-3 bottom-0 end-0'>
                                                     Buy
                                                 </button>
                                             </Card.Text>
@@ -133,7 +135,7 @@ function Mac(props) {
                                                 <small>
                                                     From $1999 or $166.58/mo.
                                                 </small>
-                                                <button className='btn btn-primary rounded-pill text-light position-absolute mb-3 mx-3 bottom-0 end-0'>
+                                                <button className='btn btn-secondary rounded-pill text-light position-absolute mb-3 mx-3 bottom-0 end-0'>
                                                     Buy
                                                 </button>
                                             </Card.Text>
@@ -157,7 +159,7 @@ function Mac(props) {
                                                 <small>
                                                     From $1599 or $208.25/mo.
                                                 </small>
-                                                <button className='btn btn-primary rounded-pill text-light position-absolute mb-3 mx-3 bottom-0 end-0'>
+                                                <button className='btn btn-secondary rounded-pill text-light position-absolute mb-3 mx-3 bottom-0 end-0'>
                                                     Buy
                                                 </button>
                                             </Card.Text>
@@ -175,7 +177,7 @@ function Mac(props) {
                                                 <small>
                                                     From $1299 or $108.25/mo.
                                                 </small>
-                                                <button className='btn btn-primary rounded-pill text-light position-absolute mb-3 mx-3 bottom-0 end-0'>
+                                                <button className='btn btn-secondary rounded-pill text-light position-absolute mb-3 mx-3 bottom-0 end-0'>
                                                     Buy
                                                 </button>
                                             </Card.Text>
@@ -193,7 +195,7 @@ function Mac(props) {
                                                 <small>
                                                     From $699 or $58.25/mo.
                                                 </small>
-                                                <button className='btn btn-primary rounded-pill text-light position-absolute mb-3 mx-3 bottom-0 end-0'>
+                                                <button className='btn btn-secondary rounded-pill text-light position-absolute mb-3 mx-3 bottom-0 end-0'>
                                                     Buy
                                                 </button>
                                             </Card.Text>
@@ -218,7 +220,7 @@ function Mac(props) {
                                                 <small>
                                                     From $1299 or $166.58/mo.
                                                 </small>
-                                                <button className='btn btn-primary rounded-pill text-light position-absolute mb-3 mx-3 bottom-0 end-0'>
+                                                <button className='btn btn-secondary rounded-pill text-light position-absolute mb-3 mx-3 bottom-0 end-0'>
                                                     Buy
                                                 </button>
                                             </Card.Text>
@@ -236,7 +238,7 @@ function Mac(props) {
                                                 <small>
                                                     From $1599 or $133.25/mo.
                                                 </small>
-                                                <button className='btn btn-primary rounded-pill text-light position-absolute mb-3 mx-3 bottom-0 end-0'>
+                                                <button className='btn btn-secondary rounded-pill text-light position-absolute mb-3 mx-3 bottom-0 end-0'>
                                                     Buy
                                                 </button>
                                             </Card.Text>
@@ -254,7 +256,7 @@ function Mac(props) {
                                                 <small>
                                                     From $5999 or $499.91/mo.
                                                 </small>
-                                                <button className='btn btn-primary rounded-pill text-light position-absolute mb-3 mx-3 bottom-0 end-0'>
+                                                <button className='btn btn-secondary rounded-pill text-light position-absolute mb-3 mx-3 bottom-0 end-0'>
                                                     Buy
                                                 </button>
                                             </Card.Text>
@@ -278,7 +280,7 @@ function Mac(props) {
                                                 <small>
                                                     From $4999 or $416.58/mo.
                                                 </small>
-                                                <button className='btn btn-primary rounded-pill text-light position-absolute mb-3 mx-3 bottom-0 end-0'>
+                                                <button className='btn btn-secondary rounded-pill text-light position-absolute mb-3 mx-3 bottom-0 end-0'>
                                                     Buy
                                                 </button>
                                             </Card.Text>
