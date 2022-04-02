@@ -10,11 +10,12 @@ import Iphone from '../Views/product/Iphone/Iphone';
 import Checkoutiphone from '../Views/product/Iphone/Checkoutiphone';
 import Checkoutipad from '../Views/product/Ipad/Checkoutipad';
 import Ipad from '../Views/product/Ipad/Ipad';
+import Bag from '../Views/Bag';
 
 function Router(props) {
     return (
         <Switch>
-            <Route exact path='/'>
+            <Route exact={true} path='/'>
                 <Navbar>
                     <Store />
                     <Footer />
@@ -62,11 +63,25 @@ function Router(props) {
                     <Footer />
                 </Navbar>
             </Route>
+
+            <Route path='*/bag'>
+                <Navbar>
+                    <Bag />
+                    <Footer />
+                </Navbar>
+            </Route>
+
+
+
+
+
             <Route path='*'>
                 <Navbar>
                     <NotFound />
                 </Navbar>
             </Route>
+
+
         </Switch>
     );
 }

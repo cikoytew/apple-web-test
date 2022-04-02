@@ -151,7 +151,7 @@ function Store() {
             </section>
 
 
-            <div className='fs-4 fw-bold offset-1 my-4 d-lg-block d-none d-md-none' style={{ fontFamily: "../fonts/SF-Pro-Display-Semibold.otf" }}>
+            <div className='fs-4 fw-bold offset-1 my-4 d-lg-block' style={{ fontFamily: "../fonts/SF-Pro-Display-Semibold.otf" }}>
                 The latest.<p className='text-secondary d-inline'> Take a look at what’s new, right now.</p>
             </div>
 
@@ -159,42 +159,42 @@ function Store() {
             <section>
                 <Carousel>
                     <Carousel.Item>
-                        <div className="card offset-1 d-lg-block d-none d-md-none border border-white" >
+                        <div className="card offset-1 d-lg-block border border-white" >
                             <div className="row">
                                 <div className="col-4">
-                                    <Card className="text-dark bg-black" style={{ width: 320 }}>
+                                    <Card className="text-dark bg-black" style={{ width: '100%' }}>
                                         <Card.Img className='rounded mb-0' src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-40-iphone-13-pro-202203?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1645052290504" alt="Card image" />
                                         <Card.ImgOverlay>
-                                            <Card.Text>IPHONE 13 PRO</Card.Text>
-                                            <Card.Title>
+                                            <Card.Text style={{ width: '8em' }}>IPHONE 13 PRO</Card.Text>
+                                            <Card.Title style={{ width: '8em' }}>
                                                 Oh. So. Pro.
                                             </Card.Title>
-                                            <Card.Text>Now in Alpine Green. From $999.00 or $41.62/mo.per month for 24 mo.monthsFootnote*</Card.Text>
+                                            <Card.Text style={{ width: '8em' }}>Now in Alpine Green. From $999.00 or $41.62/mo.per month for 24 mo.monthsFootnote*</Card.Text>
                                         </Card.ImgOverlay>
                                     </Card>
 
                                 </div>
                                 <div className="col-4">
-                                    <Card className="text-white bg-white" style={{ width: 320 }}>
+                                    <Card className="text-white bg-white" style={{ width: '100%' }}>
                                         <Card.Img className='rounded mb-0' src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-40-ipad-air-202203?wid=160&hei=200&fmt=p-jpg&qlt=95&.v=1645636337374" alt="Card image" />
                                         <Card.ImgOverlay>
-                                            <Card.Text>
+                                            <Card.Text style={{ width: '8em' }}>
                                                 IPAD AIR
                                             </Card.Text>
-                                            <Card.Title>Light. Bright. Full of might.</Card.Title>
-                                            <Card.Text>From $599 or $49.91/mo.per month for 12 mo.monthsFootnote†</Card.Text>
+                                            <Card.Title style={{ width: '8em' }}>Light. Bright. Full of might.</Card.Title>
+                                            <Card.Text style={{ width: '8em' }}>From $599 or $49.91/mo.per month for 12 mo.monthsFootnote†</Card.Text>
                                         </Card.ImgOverlay>
                                     </Card>
                                 </div>
                                 <div className="col-4">
-                                    <Card className="text-dark bg-black" style={{ width: 320 }}>
+                                    <Card className="text-dark bg-black" style={{ width: '100%' }}>
                                         <Card.Img className='rounded mb-0' src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-40-mac-studio-202203?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1645043848581" alt="Card image" />
                                         <Card.ImgOverlay>
-                                            <Card.Text>
+                                            <Card.Text style={{ width: '8em' }}>
                                                 MAC STUDIO
                                             </Card.Text>
-                                            <Card.Title>Empower station.</Card.Title>
-                                            <Card.Text>From $1999 or $166.58/mo.per month for 12 mo.monthsFootnote†</Card.Text>
+                                            <Card.Title style={{ width: '8em' }}>Empower station.</Card.Title>
+                                            <Card.Text style={{ width: '8em' }}>From $1999 or $166.58/mo.per month for 12 mo.monthsFootnote†</Card.Text>
                                         </Card.ImgOverlay>
                                     </Card>
                                 </div>
@@ -202,45 +202,45 @@ function Store() {
                         </div>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <div className="card offset-1 d-lg-block d-none d-md-none border border-white">
+                        <div className="card offset-1 d-lg-block border border-white">
                             <div className="row">
                                 <div className="col-4">
-                                    <Card className="text-dark bg-black" style={{ width: 320 }}>
+                                    <Card className="text-dark bg-black" style={{ width: '100%' }}>
                                         <Card.Img className='rounded mb-0' src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-40-studio-display-202203?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1645043848762" alt="Card image" />
                                         <Card.ImgOverlay>
-                                            <Card.Text>
+                                            <Card.Text style={{ width: '8em' }}>
                                                 STUDIO DISPLAY
                                             </Card.Text>
-                                            <Card.Title>A sight to be bold.</Card.Title>
-                                            <Card.Text>From $1599 or $133.25/mo.per month for 12 mo.monthsFootnote†</Card.Text>
+                                            <Card.Title style={{ width: '8em' }}>A sight to be bold.</Card.Title>
+                                            <Card.Text style={{ width: '8em' }}>From $1599 or $133.25/mo.per month for 12 mo.monthsFootnote†</Card.Text>
                                         </Card.ImgOverlay>
                                     </Card>
 
                                 </div>
                                 <div className="col-4">
-                                    <Card className="text-dark bg-black" style={{ width: 320 }}>
+                                    <Card className="text-dark bg-black" style={{ width: '100%' }}>
                                         <Card.Img className='rounded mb-0' src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-40-iphone-se-202203?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1645052592978" alt="Card image" />
                                         <Card.ImgOverlay>
-                                            <Card.Text>
+                                            <Card.Text style={{ width: '8em' }}>
                                                 IPHONE SE
                                             </Card.Text>
-                                            <Card.Title>
+                                            <Card.Title style={{ width: '8em' }}>
                                                 Love the power. <br />
                                                 Love the price.
                                             </Card.Title>
-                                            <Card.Text> From $429.00 or $17.87/mo.per month for 24 mo.monthsFootnote*</Card.Text>
+                                            <Card.Text style={{ width: '8em' }}> From $429.00 or $17.87/mo.per month for 24 mo.monthsFootnote*</Card.Text>
                                         </Card.ImgOverlay>
                                     </Card>
                                 </div>
                                 <div className="col-4">
-                                    <Card className="text-dark bg-black" style={{ width: 320 }}>
+                                    <Card className="text-dark bg-black" style={{ width: '100%' }}>
                                         <Card.Img className='rounded mb-0' src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-40-iphone-13-202203?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1645052290452" alt="Card image" />
                                         <Card.ImgOverlay>
-                                            <Card.Text>
+                                            <Card.Text style={{ width: '8em' }}>
                                                 IPHONE 13
                                             </Card.Text>
                                             <Card.Title>Your new superpower.</Card.Title>
-                                            <Card.Text>Now in Green. From $699.00 or $29.12/mo.per month for 24 mo.monthsFootnote*</Card.Text>
+                                            <Card.Text style={{ width: '8em' }}>Now in Green. From $699.00 or $29.12/mo.per month for 24 mo.monthsFootnote*</Card.Text>
                                         </Card.ImgOverlay>
                                     </Card>
                                 </div>
@@ -249,17 +249,17 @@ function Store() {
                         </div>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <div className="card offset-1 d-lg-block d-none d-md-none border border-white" >
+                        <div className="card offset-1 d-lg-block border border-white" >
                             <div className="row">
                                 <div className="col-4">
-                                    <Card className="text-dark bg-black" style={{ width: 320 }}>
+                                    <Card className="text-dark bg-black" style={{ width: '100%' }}>
                                         <Card.Img className='rounded mb-0' src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-40-watch-bands-202203?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1645052880599" alt="Card image" />
                                         <Card.ImgOverlay>
-                                            <Card.Text>
+                                            <Card.Text style={{ width: '8em' }}>
                                                 APPLE WATCH BANDS
                                             </Card.Text>
-                                            <Card.Title>New hues in bloom.</Card.Title>
-                                            <Card.Text>Shop the latest band styles and colors.</Card.Text>
+                                            <Card.Title style={{ width: '8em' }}>New hues in bloom.</Card.Title>
+                                            <Card.Text style={{ width: '8em' }}>Shop the latest band styles and colors.</Card.Text>
                                         </Card.ImgOverlay>
                                     </Card>
                                 </div>
@@ -269,12 +269,12 @@ function Store() {
                 </Carousel>
             </section>
 
-            <div className='fs-4 fw-bold offset-1 my-4 d-lg-block d-none d-md-none' style={{ fontFamily: "../fonts/SF-Pro-Display-Semibold.otf" }}>
+            <div className='fs-4 fw-bold d-none d-sm-none offset-1 my-4 d-lg-block' style={{ fontFamily: "../fonts/SF-Pro-Display-Semibold.otf" }}>
                 Help is here. <p className='text-secondary d-inline'> Whenever and however you need it.</p>
             </div>
 
             <section>
-                <div className="container offset-lg-1 d-lg-block d-none d-md-none position-relative" >
+                <div className="container offset-lg-1 d-none d-sm-none d-lg-block position-relative" >
                     <div className="row">
                         <Card className="text-dark border border-5" style={{ width: 550 }}>
                             <Card.Img className='rounded' src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-50-specialist-202108?wid=480&hei=500&fmt=p-jpg&qlt=95&.v=1626296836000" alt="Card image" />
@@ -304,14 +304,14 @@ function Store() {
             </section>
 
 
-            <div className='fs-4 fw-bold offset-1 my-4 d-lg-block d-none d-md-none' style={{ fontFamily: "../fonts/SF-Pro-Display-Semibold.otf" }}>
+            <div className='fs-4 fw-bold d-none d-sm-none offset-1 my-4 d-lg-block' style={{ fontFamily: "../fonts/SF-Pro-Display-Semibold.otf" }}>
                 The Apple difference. <p className='text-secondary d-inline'> Even more reasons to shop with us.</p>
             </div>
 
             <section>
                 <Carousel>
                     <Carousel.Item>
-                        <div className="card offset-1 d-lg-block d-none d-md-none border border-white" >
+                        <div className="card offset-1 d-lg-block d-none d-sm-none border border-white" >
                             <div className="row">
                                 <div className="col-4">
                                     <Card className="text-dark bg-white border border-4" style={{ width: 300, height: 200 }}>
@@ -320,7 +320,7 @@ function Store() {
                                             <Bag color='dodgerblue' size={50} />
                                         </div>
                                         <Card.ImgOverlay>
-                                            <Card.Title className='mt-5 fw-bold ' style={{ color: 'dodgerblue' }}>
+                                            <Card.Title className='mt-5 fw-bold '>
                                                 Convenient pickup options <br />that fit into your everyday schedule.
                                             </Card.Title>
                                         </Card.ImgOverlay>
@@ -354,7 +354,7 @@ function Store() {
                         </div>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <div className="card offset-1 d-lg-block d-none d-md-none border border-white" >
+                        <div className="card offset-1 d-lg-block d-none d-sm-none border border-white" >
                             <div className="row">
                                 <div className="col-4">
                                     <Card className="text-dark bg-white border border-4" style={{ width: 300, height: 200 }}>
@@ -399,7 +399,7 @@ function Store() {
                 </Carousel>
             </section >
 
-            <div className='fs-4 fw-bold offset-1 my-4 d-lg-block d-none d-md-none' style={{ fontFamily: "../fonts/SF-Pro-Display-Semibold.otf" }}>
+            <div className='fs-4 fw-bold d-none d-sm-none offset-1 my-4 d-lg-block' style={{ fontFamily: "../fonts/SF-Pro-Display-Semibold.otf" }}>
                 Accessories.<p className='text-secondary d-inline'>  Essentials that pair perfectly with your favorite devices.</p>
             </div>
 
@@ -407,7 +407,7 @@ function Store() {
 
                 <Carousel>
                     <Carousel.Item>
-                        <div className="card offset-1 d-lg-block d-none d-md-none border border-white" >
+                        <div className="card offset-1 d-lg-block d-none d-sm-none border border-white" >
                             <div className="row">
                                 <div className="col-4">
                                     <Card className="text-dark bg-white" style={{ width: 320 }}>
@@ -416,7 +416,7 @@ function Store() {
                                             <Card.Title>
                                                 In with the new.
                                             </Card.Title>
-                                            <Card.Text>
+                                            <Card.Text style={{ width: '8em' }}>
                                                 Discover fresh new colors for your favorite accessories.</Card.Text>
                                         </Card.ImgOverlay>
                                     </Card>
@@ -426,13 +426,13 @@ function Store() {
                                     <Card className="text-dark bg-white" style={{ width: 320 }}>
                                         <Card.Img className='rounded mb-0 mx-auto' style={{ width: 250, height: 249 }} src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MN683?wid=200&hei=200&fmt=jpeg&qlt=95&.v=1645997365583" alt="Card image" />
                                         <Card.ImgOverlay className='bg-white position-relative'>
-                                            <Card.Text style={{ color: 'red' }}>
+                                            <Card.Text style={{ width: '19rem', color: 'red' }}>
                                                 New
                                             </Card.Text>
                                             <Card.Title>
                                                 iPhone 13 Pro Silicone Case with MagSafe - Nectarine
                                             </Card.Title>
-                                            <Card.Text>$49.00</Card.Text>
+                                            <Card.Text style={{ width: '19rem', color: 'red' }}>$49.00</Card.Text>
                                         </Card.ImgOverlay>
                                     </Card>
                                 </div>
@@ -440,13 +440,13 @@ function Store() {
                                     <Card className="text-dark bg-white" style={{ width: 320 }}>
                                         <Card.Img className='rounded mb-0 mx-auto' style={{ width: 250, height: 249 }} src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MN6G3?wid=200&hei=200&fmt=jpeg&qlt=95&.v=1645509710532" alt="Card image" />
                                         <Card.ImgOverlay className='bg-white position-relative'>
-                                            <Card.Text style={{ color: 'red' }}>
+                                            <Card.Text style={{ width: '19rem', color: 'red' }}>
                                                 New
                                             </Card.Text>
                                             <Card.Title>
                                                 iPhone SE Silicone Case - Chalk Pink
                                             </Card.Title>
-                                            <Card.Text>$35.00</Card.Text>
+                                            <Card.Text style={{ width: '8em' }}>$35.00</Card.Text>
                                         </Card.ImgOverlay>
                                     </Card>
                                 </div>
@@ -454,19 +454,19 @@ function Store() {
                         </div>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <div className="card offset-1 d-lg-block d-none d-md-none border border-white">
+                        <div className="card offset-1 d-lg-block d-none d-sm-none border border-white">
                             <div className="row">
                                 <div className="col-4">
                                     <Card className="text-dark bg-white" style={{ width: 320 }}>
                                         <Card.Img className='rounded mb-0 mx-auto' style={{ width: 250, height: 249 }} src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MN613?wid=200&hei=200&fmt=jpeg&qlt=95&.v=1645847133062" alt="Card image" />
                                         <Card.ImgOverlay className='bg-white position-relative'>
-                                            <Card.Text style={{ color: 'red' }}>
+                                            <Card.Text style={{ width: '19rem', color: 'red' }}>
                                                 New
                                             </Card.Text>
                                             <Card.Title>
                                                 iPhone 13 Silicone Case with MagSafe - Blue Fog
                                             </Card.Title>
-                                            <Card.Text>$49.00</Card.Text>
+                                            <Card.Text style={{ width: '8em' }}>$49.00</Card.Text>
                                         </Card.ImgOverlay>
                                     </Card>
                                 </div>
@@ -474,13 +474,13 @@ function Store() {
                                     <Card className="text-dark bg-white" style={{ width: 320 }}>
                                         <Card.Img className='rounded mb-0 mx-auto' style={{ width: 250, height: 249 }} src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MM0W3?wid=200&hei=200&fmt=jpeg&qlt=95&.v=1629865215000" alt="Card image" />
                                         <Card.ImgOverlay className='bg-white position-relative'>
-                                            <Card.Text style={{ color: 'red' }}>
+                                            <Card.Text style={{ width: '19rem', color: 'red' }}>
                                                 Now with Find My support
                                             </Card.Text>
                                             <Card.Title>
                                                 iPhone Leather Wallet with MagSafe - Wisteria
                                             </Card.Title>
-                                            <Card.Text>$59.00</Card.Text>
+                                            <Card.Text style={{ width: '8em' }}>$59.00</Card.Text>
                                         </Card.ImgOverlay>
                                     </Card>
                                 </div>
@@ -488,13 +488,13 @@ function Store() {
                                     <Card className="text-dark bg-white" style={{ width: 320 }}>
                                         <Card.Img className='rounded mb-0 mx-auto' style={{ width: 250, height: 249 }} src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MN1L3ref?wid=200&hei=200&fmt=jpeg&qlt=95&.v=1645079879837" alt="Card image" />
                                         <Card.ImgOverlay className='bg-white position-relative'>
-                                            <Card.Text style={{ color: 'red' }}>
+                                            <Card.Text style={{ width: '19rem', color: 'red' }}>
                                                 New
                                             </Card.Text>
                                             <Card.Title>
                                                 45mm Flamingo Braided Solo Loop - Size 6
                                             </Card.Title>
-                                            <Card.Text>$99.00</Card.Text>
+                                            <Card.Text style={{ width: '8em' }}>$99.00</Card.Text>
                                         </Card.ImgOverlay>
                                     </Card>
                                 </div>
@@ -503,19 +503,19 @@ function Store() {
                         </div>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <div className="card offset-1 d-lg-block d-none d-md-none border border-white" >
+                        <div className="card offset-1 d-lg-block d-none d-sm-none border border-white" >
                             <div className="row">
                                 <div className="col-4">
                                     <Card className="text-dark bg-white" style={{ width: 320 }}>
                                         <Card.Img className='rounded mb-0 mx-auto' style={{ width: 250, height: 249 }} src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MM013?wid=200&hei=200&fmt=jpeg&qlt=95&.v=1624640873000" alt="Card image" />
                                         <Card.ImgOverlay className='bg-white position-relative'>
-                                            <Card.Text style={{ color: 'white' }}>
+                                            <Card.Text style={{ width: '19rem', color: 'red' }}>
                                                 Not New
                                             </Card.Text>
                                             <Card.Title>
                                                 AirTag Leather Loop - Forest Green
                                             </Card.Title>
-                                            <Card.Text>$39.00</Card.Text>
+                                            <Card.Text style={{ width: '8em' }}>$39.00</Card.Text>
                                         </Card.ImgOverlay>
                                     </Card>
                                 </div>
@@ -535,14 +535,14 @@ function Store() {
             </section>
 
 
-            <div className='fs-4 fw-bold offset-1 my-4 d-lg-block d-none d-md-none' style={{ fontFamily: "../fonts/SF-Pro-Display-Semibold.otf" }}>
+            <div className='fs-4 fw-bold offset-1 d-none d-sm-none my-4 d-lg-block' style={{ fontFamily: "../fonts/SF-Pro-Display-Semibold.otf" }}>
                 Loud and clear.<p className='text-secondary d-inline'>  Unparalleled choices for rich, high-quality sound.</p>
             </div>
 
             <section>
                 <Carousel>
                     <Carousel.Item>
-                        <div className="card offset-1 d-lg-block d-none d-md-none border border-white" >
+                        <div className="card offset-1 d-lg-block d-none d-sm-none border border-white" >
                             <div className="row">
                                 <div className="col-4">
                                     <Card className="text-dark bg-white" style={{ width: 320 }}>
@@ -551,7 +551,7 @@ function Store() {
                                             <Card.Title>
                                                 Get 6 months of Apple Music free.
                                             </Card.Title>
-                                            <Card.Text>
+                                            <Card.Text style={{ width: '8em' }}>
                                                 Included with purchase of select AirPods and Beats products, and HomePod mini.**</Card.Text>
                                         </Card.ImgOverlay>
                                     </Card>
@@ -561,13 +561,13 @@ function Store() {
                                     <Card className="text-dark bg-white" style={{ width: 320 }}>
                                         <Card.Img className='rounded mb-0 mx-auto' style={{ width: 250, height: 270 }} src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MME73?wid=200&hei=200&fmt=jpeg&qlt=95&.v=1632861342000" alt="Card image" />
                                         <Card.ImgOverlay className='bg-white position-relative'>
-                                            <Card.Text style={{ color: 'red' }}>
+                                            <Card.Text style={{ width: '19rem', color: 'red' }}>
                                                 Free Engraving
                                             </Card.Text>
                                             <Card.Title>
                                                 AirPods (3rd generation)
                                             </Card.Title>
-                                            <Card.Text>$179.00</Card.Text>
+                                            <Card.Text style={{ width: '8em' }}>$179.00</Card.Text>
                                         </Card.ImgOverlay>
                                     </Card>
                                 </div>
@@ -575,13 +575,13 @@ function Store() {
                                     <Card className="text-dark bg-white" style={{ width: 320 }}>
                                         <Card.Img className='rounded mb-0 mx-auto' style={{ width: 250, height: 249 }} src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MK2J3?wid=200&hei=200&fmt=jpeg&qlt=95&.v=1634663503000" alt="Card image" />
                                         <Card.ImgOverlay className='bg-white position-relative'>
-                                            <Card.Text style={{ color: 'red' }}>
+                                            <Card.Text style={{ width: '19rem', color: 'red' }}>
                                                 Free Engraving
                                             </Card.Text>
                                             <Card.Title>
                                                 Beats Fit Pro True Wireless Earbuds — Sage Gray
                                             </Card.Title>
-                                            <Card.Text>$199.99</Card.Text>
+                                            <Card.Text style={{ width: '8em' }}>$199.99</Card.Text>
                                         </Card.ImgOverlay>
                                     </Card>
                                 </div>
@@ -589,19 +589,19 @@ function Store() {
                         </div>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <div className="card offset-1 d-lg-block d-none d-md-none border border-white">
+                        <div className="card offset-1 d-lg-block d-none d-sm-none border border-white">
                             <div className="row">
                                 <div className="col-4">
                                     <Card className="text-dark bg-white" style={{ width: 320 }}>
                                         <Card.Img className='rounded mb-0 mx-auto' style={{ width: 250, height: 270 }} src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MWP22?wid=200&hei=200&fmt=jpeg&qlt=95&.v=1591634795000" alt="Card image" />
                                         <Card.ImgOverlay className='bg-white position-relative'>
-                                            <Card.Text style={{ color: 'red' }}>
+                                            <Card.Text style={{ width: '19rem', color: 'red' }}>
                                                 Free Engraving
                                             </Card.Text>
                                             <Card.Title>
                                                 AirPods Pro
                                             </Card.Title>
-                                            <Card.Text>$249.00</Card.Text>
+                                            <Card.Text style={{ width: '8em' }}>$249.00</Card.Text>
                                         </Card.ImgOverlay>
                                     </Card>
                                 </div>
@@ -609,13 +609,13 @@ function Store() {
                                     <Card className="text-dark bg-white" style={{ width: 320 }}>
                                         <Card.Img className='rounded mb-0 mx-auto' style={{ width: 250, height: 270 }} src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/homepod-mini-select-orange-202110?wid=200&hei=200&fmt=jpeg&qlt=95&.v=1632925511000" alt="Card image" />
                                         <Card.ImgOverlay className='bg-white position-relative'>
-                                            <Card.Text style={{ color: 'white' }}>
+                                            <Card.Text style={{ width: '19rem', color: 'red' }}>
                                                 Not New
                                             </Card.Text>
                                             <Card.Title>
                                                 HomePod mini - Orange
                                             </Card.Title>
-                                            <Card.Text> $99.00</Card.Text>
+                                            <Card.Text style={{ width: '8em' }}> $99.00</Card.Text>
                                         </Card.ImgOverlay>
                                     </Card>
                                 </div>
@@ -623,13 +623,13 @@ function Store() {
                                     <Card className="text-dark bg-white" style={{ width: 320 }}>
                                         <Card.Img className='rounded mb-0 mx-auto' style={{ width: 250, height: 270 }} src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/airpods-max-select-silver-202011?wid=200&hei=200&fmt=jpeg&qlt=95&.v=1604021221000" alt="Card image" />
                                         <Card.ImgOverlay className='bg-white position-relative'>
-                                            <Card.Text style={{ color: 'red' }}>
+                                            <Card.Text style={{ width: '19rem', color: 'red' }}>
                                                 Free Engraving
                                             </Card.Text>
                                             <Card.Title>
                                                 AirPods Max - Silver
                                             </Card.Title>
-                                            <Card.Text>$549.00</Card.Text>
+                                            <Card.Text style={{ width: '8em' }}>$549.00</Card.Text>
                                         </Card.ImgOverlay>
                                     </Card>
                                 </div>
@@ -639,20 +639,20 @@ function Store() {
                 </Carousel>
             </section>
 
-            <div className='fs-4 fw-bold offset-1 my-4 d-lg-block d-none d-md-none' style={{ fontFamily: "../fonts/SF-Pro-Display-Semibold.otf" }}>
+            <div className='fs-4 fw-bold d-none d-sm-none offset-1 my-4 d-lg-block' style={{ fontFamily: "../fonts/SF-Pro-Display-Semibold.otf" }}>
                 Do more with Apple products.<p className='text-secondary d-inline'> Here’s where the fun begins.</p>
             </div>
 
             <section>
                 <Carousel>
                     <Carousel.Item>
-                        <div className="card offset-1 d-lg-block d-none d-md-none border border-white" >
+                        <div className="card offset-1 d-lg-block d-none d-sm-none border border-white" >
                             <div className="row">
                                 <div className="col-6">
                                     <Card className="text-dark bg-black" style={{ width: 480 }}>
                                         <Card.Img className='rounded mb-0' src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-50-todayatapple-202108?wid=480&hei=500&fmt=p-jpg&qlt=95&.v=1625788042000" alt="Card image" />
                                         <Card.ImgOverlay>
-                                            <Card.Text className='fs-6'>WATCH AND LEARN
+                                            <Card.Text style={{ width: '19rem' }} className='fs-6'>WATCH AND LEARN
                                             </Card.Text>
                                             <Card.Title className='fs-4 fw-bold'>
                                                 Join a Today at Apple <br /> virtual session.
@@ -674,7 +674,7 @@ function Store() {
                         </div>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <div className="card offset-1 d-lg-block d-none d-md-none border border-white">
+                        <div className="card offset-1 d-lg-block d-none d-sm-none border border-white">
                             <div className="row">
                                 <div className="col-6">
                                     <Card className="text-dark bg-black" style={{ width: 480 }}>
@@ -689,7 +689,7 @@ function Store() {
                                     <Card className="text-dark bg-black" style={{ width: 480 }}>
                                         <Card.Img className='rounded mb-0' src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-50-homekit-202110_GEO_US?wid=480&hei=500&fmt=p-jpg&qlt=95&.v=1634069685000" alt="Card image" />
                                         <Card.ImgOverlay>
-                                            <Card.Text className='fs-6'>
+                                            <Card.Text style={{ width: '19rem' }} className='fs-6'>
                                                 HOME
                                             </Card.Text>
                                             <Card.Title className='fs-3 fw-bold'>
@@ -705,7 +705,7 @@ function Store() {
             </section>
 
 
-            <div className='fs-4 fw-bold offset-1 my-4 d-lg-block d-none d-md-none' style={{ fontFamily: "../fonts/SF-Pro-Display-Semibold.otf" }}>
+            <div className='fs-4 fw-bold d-none d-sm-none offset-1 my-4 d-lg-block' style={{ fontFamily: "../fonts/SF-Pro-Display-Semibold.otf" }}>
                 Shop by group. <p className='text-secondary d-inline'> Get special pricing for students, businesses, and more.</p>
             </div>
 
@@ -713,13 +713,13 @@ function Store() {
             <section>
                 <Carousel>
                     <Carousel.Item>
-                        <div className="card offset-1 d-lg-block d-none d-md-none border border-white" >
+                        <div className="card offset-1 d-none d-sm-none d-lg-block border border-white" >
                             <div className="row">
                                 <div className="col-6">
                                     <Card className="text-dark bg-black" style={{ width: 480 }}>
                                         <Card.Img className='rounded mb-0' src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-40-edu-202108?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1627492399000" alt="Card image" />
                                         <Card.ImgOverlay>
-                                            <Card.Text className='fs-6'>
+                                            <Card.Text style={{ width: '19rem' }} className='fs-6'>
                                                 EDUCATION
                                             </Card.Text>
                                             <Card.Title className='fs-2 fw-bold'>
@@ -732,7 +732,7 @@ function Store() {
                                     <Card className="text-light bg-black" style={{ width: 480 }}>
                                         <Card.Img className='rounded mb-0' src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-40-small-business-202108?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1627318784000" alt="Card image" />
                                         <Card.ImgOverlay>
-                                            <Card.Text className='fs-6 text-secondary'>BUSINESS
+                                            <Card.Text style={{ width: '19rem' }} className='fs-6 text-secondary'>BUSINESS
                                             </Card.Text>
                                             <Card.Title className='fs-2 fw-bold'>
                                                 From enterprise to small business, we’ll work with you.2
@@ -752,7 +752,7 @@ function Store() {
                                         <Card.Img className='rounded mb-0' src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-40-gov-202108?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1632870676000" alt="Card image" />
                                         <Card.ImgOverlay>
 
-                                            <Card.Text className='fs-6 text-secondary'>GOVERNMENT
+                                            <Card.Text style={{ width: '19rem' }} className='fs-6 text-secondary'>GOVERNMENT
                                             </Card.Text>
                                             <Card.Title className='fs-2 fw-bold'>
                                                 Special pricing is available for state, local, and federal agencies.2
@@ -764,7 +764,7 @@ function Store() {
                                     <Card className="text-dark bg-black" style={{ width: 480 }}>
                                         <Card.Img className='rounded mb-0' src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-40-veterans-202203?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1645468079106" alt="Card image" />
                                         <Card.ImgOverlay>
-                                            <Card.Text className='fs-6 text-secondary'>VETERANS AND MILITARY
+                                            <Card.Text style={{ width: '19rem' }} className='fs-6 text-secondary'>VETERANS AND MILITARY
                                             </Card.Text>
                                             <Card.Title className='fs-2 fw-bold'>
                                                 Active and veteran members may be eligible for exclusive savings.2
@@ -782,7 +782,7 @@ function Store() {
                                     <Card className="text-dark bg-black" style={{ width: 480 }}>
                                         <Card.Img className='rounded mb-0' src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-40-refurb-202108?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1627318783000" alt="Card image" />
                                         <Card.ImgOverlay>
-                                            <Card.Text className='fs-6'>
+                                            <Card.Text style={{ width: '19rem' }} className='fs-6'>
                                                 CERTIFIED REFURBISHED
                                             </Card.Text>
                                             <Card.Title className='fs-2 fw-bold'>

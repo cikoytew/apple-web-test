@@ -19,7 +19,7 @@ function Footer(props) {
 
                 <section className="row justify-content-lg-center py-4">
 
-                    <div className="col-lg-2 d-lg-none d-sm-block">
+                    <div className="col-lg-2 d-lg-none d-none d-sm-none">
                         <div className="accordion" id="accordion">
                             <div className="accordion-item">
                                 <h2 className="accordion-header" id="headingOne">
@@ -68,7 +68,7 @@ function Footer(props) {
                         </small>
                     </div>
 
-                    <div className="col-lg-2 d-lg-none d-sm-block">
+                    <div className="col-lg-2 d-none">
                         <div className="accordion" id="accordion">
                             <div className="accordion-item">
                                 <h2 className="accordion-header" id="headingTwo">
@@ -115,7 +115,7 @@ function Footer(props) {
                         </small>
                     </div>
 
-                    <div className="col-lg-2 d-lg-none d-sm-block">
+                    <div className="col-lg-2 d-none">
                         <div className="accordion" id="accordion">
                             <div className="accordion-item">
                                 <h2 className="accordion-header" id="headingThree">
@@ -136,7 +136,7 @@ function Footer(props) {
 
                     </div>
 
-                    <div className="col-lg-2 d-lg-none d-sm-block">
+                    <div className="col-lg-2 d-none">
                         <div className="accordion" id="accordion">
                             <div className="accordion-item">
                                 <h2 className="accordion-header" id="headingFourth">
@@ -157,7 +157,7 @@ function Footer(props) {
 
                     </div>
 
-                    <div className="col-lg-2 d-lg-none d-sm-block">
+                    <div className="col-lg-2 d-none">
                         <div className="accordion" id="accordion">
                             <div className="accordion-item">
                                 <h2 className="accordion-header" id="headingFive">
@@ -193,7 +193,7 @@ function Footer(props) {
                     </div>
 
 
-                    <div className="col-lg-2 d-lg-none d-sm-block">
+                    <div className="col-lg-2 d-none">
                         <div className="accordion" id="accordion">
                             <div className="accordion-item">
                                 <h2 className="accordion-header" id="headingSix">
@@ -215,7 +215,7 @@ function Footer(props) {
 
                     </div>
 
-                    <div className="col-lg-2 d-lg-none d-sm-block">
+                    <div className="col-lg-2 d-none">
                         <div className="accordion" id="accordion">
                             <div className="accordion-item">
                                 <h2 className="accordion-header" id="headingSeven">
@@ -258,7 +258,7 @@ function Footer(props) {
                     </div>
 
 
-                    <div className="col-lg-2 d-lg-none d-sm-block">
+                    <div className="col-lg-2 d-none">
                         <div className="accordion" id="accordion">
                             <div className="accordion-item">
                                 <h2 className="accordion-header" id="headingEight">
@@ -280,7 +280,7 @@ function Footer(props) {
 
                     </div>
 
-                    <div className="col-lg-2 d-lg-none d-sm-block">
+                    <div className="col-lg-2 d-none">
                         <div className="accordion" id="accordion">
                             <div className="accordion-item">
                                 <h2 className="accordion-header" id="headingNine">

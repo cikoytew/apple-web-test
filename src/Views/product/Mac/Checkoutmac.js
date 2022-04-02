@@ -7,6 +7,7 @@ function Checkoutmac(props) {
     const [gambar1, setGambar1] = useState('https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/macbook-air-space-gray-select-201810?wid=452&hei=420&fmt=jpeg&qlt=95&.v=1633027804000');
     const [gambar2, setGambar2] = useState('https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/macbook-air-space-gray-select-201810?wid=452&hei=420&fmt=jpeg&qlt=95&.v=1633027804000');
 
+
     return (
         <div>
             <div className='container'>
@@ -61,11 +62,13 @@ function Checkoutmac(props) {
                     </p>
                 </p>
             </div>
+
             <div className="container d-flex justify-content-center ">
                 <div className="d-lg-block d-none d-md-none bg-white py-2">
                     <div className="row ">
                         <div className="col-lg-6">
                             <Card className="text-dark bg-white border border-white" style={{ width: 320 }}>
+
                                 <Card.Img className='rounded mb-0 mx-auto' style={{ width: 250, height: 249 }} src={gambar1} alt="Card image" />
                                 <div className="row justify-content-center">
                                     <div className="col-3">
