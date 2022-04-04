@@ -11,6 +11,10 @@ import Checkoutiphone from '../Views/product/Iphone/Checkoutiphone';
 import Checkoutipad from '../Views/product/Ipad/Checkoutipad';
 import Ipad from '../Views/product/Ipad/Ipad';
 import Bag from '../Views/Bag';
+import Cart from '../Views/Cart';
+import Home from '../Views/Home';
+import { CartProvider } from 'react-use-cart';
+
 
 function Router(props) {
     return (
@@ -63,6 +67,16 @@ function Router(props) {
                     <Footer />
                 </Navbar>
             </Route>
+
+            <Route path='*/cart'>
+                <CartProvider>
+                    <Navbar>
+                        <Home />
+                        <Cart />
+                    </Navbar>
+                </CartProvider>
+            </Route>
+
 
             <Route path='*/bag'>
                 <Navbar>

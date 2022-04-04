@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Card } from 'react-bootstrap';
 import { Box, ChatDots } from 'react-bootstrap-icons';
+import { useCart } from 'react-use-cart';
 
 class Checkoutiphone extends Component {
 
@@ -35,12 +36,15 @@ class Checkoutiphone extends Component {
     }
 
 
+
     render() {
         const { showHideCard1, showHideCard2, showHideCard3, showHideCard4 } = this.state;
 
         return (
+
             <div className='container'>
                 <div className='container'>
+
                     <section>
                         <div className="container d-lg-block d-none d-md-none offset-lg-1 bg-white py-2">
                             <div className="row ">
